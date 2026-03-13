@@ -292,6 +292,21 @@
   line-height: 1.65;
 }
 
+/* Attorney Photo */
+.contact-attorney-photo {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid var(--color-neutral-200);
+  box-shadow: var(--shadow-md);
+}
+
+.contact-attorney-photo img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
 /* Areas Card */
 .contact-areas-card {
   background: var(--color-bg-alt);

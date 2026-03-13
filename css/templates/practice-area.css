@@ -26,7 +26,6 @@
   align-items: center;
   overflow: hidden;
   background: var(--color-neutral-900);
-  background-image: url('https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/male-lawyer-working-with-contract-papers-wooden-gavel-tabel-courtroom-justice-law-attorney-court-judge-concept.jpg');
   background-size: cover;
   background-position: center top;
 }
@@ -365,6 +364,22 @@
   color: var(--color-primary-dark);
 }
 
+/* ── Content Image ── */
+.pa-detail-content-image {
+  margin: 1.25rem 0;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.pa-detail-content-image img {
+  width: 100%;
+  height: auto;
+  max-height: 380px;
+  object-fit: cover;
+  display: block;
+}
+
 /* ── Bottom CTA ── */
 .pa-detail-cta {
   background: var(--color-primary);
@@ -416,7 +431,7 @@
   align-items: center;
   overflow: hidden;
   background: var(--color-neutral-900);
-  background-image: url('https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background-concepts-law.jpg');
+  background-image: url('https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/image-lawyer-businessman-sitting-office-with-woman-customer-explaining-agreement-advice.webp');
   background-size: cover;
   background-position: center;
 }

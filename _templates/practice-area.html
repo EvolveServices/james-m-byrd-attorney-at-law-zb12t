@@ -22,7 +22,7 @@
   <div data-include="navbar"></div>
 
   <!-- Hero -->
-  <section class="pa-detail-hero">
+  <section class="pa-detail-hero" style="background-image:url('{{hero.image}}');">
     <div class="pa-detail-hero-overlay"></div>
     <div class="container">
       <div class="pa-detail-hero-content">
@@ -74,6 +74,11 @@
           <div class="pa-detail-block reveal">
             <h2>{{content.why_heading}}</h2>
             <div class="divider"></div>
+            {{#hero.content_image}}
+            <div class="pa-detail-content-image">
+              <img src="{{hero.content_image}}" alt="{{hero.content_image_alt}}" />
+            </div>
+            {{/hero.content_image}}
             {{{content.why_body}}}
           </div>
           {{/content.why_heading}}
