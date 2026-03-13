@@ -403,12 +403,17 @@ footer {
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
+.footer-brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
 .footer-brand-name {
   font-family: var(--font-heading);
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-bold);
   color: #fff;
-  margin-bottom: 0.25rem;
 }
 
 .footer-tagline {
@@ -417,7 +422,6 @@ footer {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--color-secondary);
-  margin-bottom: 1rem;
 }
 
 .footer-about {
