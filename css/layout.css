@@ -46,6 +46,14 @@ header.scrolled {
   flex-shrink: 0;
 }
 
+.navbar-brand img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 48px;
+  width: auto;
+  flex-shrink: 0;
+}
+
 .navbar-brand-text {
   display: flex;
   flex-direction: column;
