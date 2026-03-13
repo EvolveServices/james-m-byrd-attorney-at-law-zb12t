@@ -1,0 +1,83 @@
+{
+  "slug": "federal-white-collar-crime",
+  "template": "practice-area",
+  "output": "/practice-areas/federal-white-collar-crime/index.html",
+  "meta": {
+    "title": "Federal Criminal Law & White Collar Crime Defense",
+    "description": "Experienced federal criminal defense and white collar crime attorney in Mobile, AL. James M. Byrd has defended clients in federal court since 1979. Call 251-438-2973."
+  },
+  "hero": {
+    "title": "Federal Criminal Law & White Collar Crime",
+    "subtitle": "Federal charges carry severe consequences and require a defense attorney with deep federal court experience. James M. Byrd is licensed in the Federal District Court for the Southern District of Alabama, the Eleventh Circuit Court of Appeals, and the United States Supreme Court."
+  },
+  "content": {
+    "intro_heading": "Defending Clients Against Federal Charges",
+    "intro_body": "<p>Federal criminal investigations and prosecutions are fundamentally different from state-level cases. Federal prosecutors have vast resources, extensive investigative support from agencies such as the FBI, IRS Criminal Investigation, and the Department of Justice, and they pursue charges with an exceptionally high conviction rate. If you are the target or subject of a federal investigation, or if you have already been indicted, you need an attorney who understands the federal system from the inside out.</p><p>James M. Byrd has practiced criminal defense in Mobile, Alabama since 1979 and has represented clients in federal court throughout his career. He is licensed to practice before the Federal District Court for the Southern District of Alabama, the Eleventh Circuit Court of Appeals, and the United States Supreme Court. His experience navigating the Federal Sentencing Guidelines, pre-trial motions, and complex evidentiary issues provides clients with a decisive advantage when the stakes are at their highest.</p>",
+    "charges_heading": "Federal & White Collar Crimes We Defend",
+    "charges_intro": "Mr. Byrd defends individuals and businesses facing a broad range of federal criminal charges, including but not limited to:",
+    "why_heading": "Why Federal Cases Demand Specialized Defense",
+    "why_body": "<p>Federal cases differ from state cases in several critical ways. Federal prosecutors are highly experienced trial attorneys backed by the full investigative power of the federal government. Federal sentencing guidelines are strict, and even non-violent white collar offenses can carry prison sentences measured in years or even decades. Additionally, federal law enforcement agencies often build cases over months or years before making an arrest, meaning the government may already have substantial evidence before you are aware you are under investigation.</p><p>Early intervention is one of the most effective strategies in federal criminal defense. If you learn you are under investigation, contacting a federal defense attorney before charges are filed can significantly affect the outcome of your case. Mr. Byrd can communicate with prosecutors and investigators on your behalf, protect your rights during any questioning, and work to prevent charges from being filed or to negotiate a more favorable resolution before trial.</p><p>Once charges are filed, Mr. Byrd brings decades of courtroom experience to bear, challenging the government's evidence, filing pre-trial motions to suppress improperly obtained evidence, and preparing a vigorous defense for trial if necessary.</p>",
+    "strategies_heading": "Our Federal Defense Approach",
+    "extra_body": "<h2>Understanding White Collar Crime Charges</h2><div class='divider'></div><p>White collar crime is a broad category of non-violent offenses typically committed by individuals in business or professional settings for financial gain. Despite their non-violent nature, these offenses are prosecuted aggressively at the federal level, and convictions often result in substantial prison time, heavy fines, restitution orders, and permanent damage to your professional reputation and career.</p><p>If you are a business owner, executive, financial professional, or public official who has been contacted by federal investigators or received a subpoena, do not attempt to handle the situation on your own. Anything you say to investigators can and will be used against you. The very first step you should take is to consult with a qualified federal criminal defense attorney.</p><p>James M. Byrd has defended clients facing white collar charges throughout his 40-plus year career in Mobile, Alabama. He understands the complexity of financial evidence, forensic accounting, and the legal theories prosecutors use in these cases. He will review the government's evidence, identify weaknesses in their case, and develop a defense strategy tailored to the specific facts of your situation.</p>"
+  },
+  "charges": [
+    "Wire fraud and mail fraud",
+    "Bank fraud and mortgage fraud",
+    "Securities fraud and investment fraud",
+    "Insurance fraud",
+    "Tax evasion and tax fraud",
+    "Money laundering",
+    "Bribery and public corruption",
+    "Embezzlement",
+    "Identity theft and computer fraud",
+    "Healthcare fraud",
+    "RICO violations and conspiracy charges",
+    "Federal drug trafficking charges"
+  ],
+  "strategies": [
+    {
+      "icon": "search",
+      "title": "Thorough Investigation",
+      "description": "We independently investigate the government's case, reviewing all evidence, interviewing witnesses, and identifying weaknesses in the prosecution's theory."
+    },
+    {
+      "icon": "file-x",
+      "title": "Pre-Trial Motions",
+      "description": "We file motions to suppress illegally obtained evidence, dismiss defective charges, and limit what the government can present at trial."
+    },
+    {
+      "icon": "shield",
+      "title": "Protecting Your Rights",
+      "description": "From the moment you retain us, we handle all communications with federal investigators and prosecutors to ensure your rights are fully protected."
+    },
+    {
+      "icon": "scale",
+      "title": "Sentencing Mitigation",
+      "description": "When appropriate, we work to minimize sentencing exposure through the Federal Sentencing Guidelines, cooperation agreements, and compelling mitigation arguments."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I receive a federal grand jury subpoena?",
+      "answer": "Contact a federal criminal defense attorney immediately. A grand jury subpoena means federal investigators are looking at you or your activities. You have legal rights and options, and an attorney can advise you on how to respond while protecting your interests."
+    },
+    {
+      "question": "Can federal charges be dismissed before trial?",
+      "answer": "Yes. Pre-trial motions can result in charges being reduced or dismissed entirely if the government's evidence was obtained unlawfully or if there are defects in the indictment. An experienced federal defense attorney will identify and pursue every available legal argument."
+    },
+    {
+      "question": "How are federal sentences determined?",
+      "answer": "Federal sentences are guided by the U.S. Sentencing Guidelines, which assign offense levels based on the nature of the crime and the defendant's criminal history. A skilled defense attorney can argue for downward departures or variances that result in significantly lighter sentences."
+    },
+    {
+      "question": "How long do federal investigations typically last?",
+      "answer": "Federal investigations can last months or years before charges are filed. If you suspect you are under investigation, do not wait until you are charged to seek legal counsel. Early representation gives you the best chance at a favorable outcome."
+    }
+  ],
+  "cta": {
+    "heading": "Facing Federal Charges? Contact James M. Byrd Today.",
+    "text": "Federal prosecution is serious. Do not face it alone. With over 40 years of criminal defense experience and federal court licensure, Mr. Byrd is prepared to defend your rights and your future.",
+    "url": "/contact/",
+    "button_text": "Request a Consultation"
+  }
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" sizes="32x32" href="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/branding/jmb-avatar-favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/branding/jmb-avatar-favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/branding/jmb-avatar-favicon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{meta.title}} | James M. Byrd, Attorney at Law</title>
+  <meta name="description" content="{{meta.description}}" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="/css/animations.css" />
+  <link rel="stylesheet" href="/css/templates/practice-area.css" />
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+  <div data-include="navbar"></div>
+
+  <!-- Hero -->
+  <section class="pa-detail-hero">
+    <div class="pa-detail-hero-overlay"></div>
+    <div class="container">
+      <div class="pa-detail-hero-content">
+        <span class="section-label">Practice Area</span>
+        <h1>{{hero.title}}</h1>
+        <p>{{hero.subtitle}}</p>
+        <div class="pa-detail-hero-btns">
+          <a href="/contact/" class="btn btn-secondary btn-lg">Schedule a Consultation</a>
+          <a href="tel:+12514382973" class="btn btn-outline-white btn-lg">Call 251-438-2973</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content + Sidebar -->
+  <section class="section pa-detail-body">
+    <div class="container">
+      <div class="pa-detail-layout">
+
+        <!-- Main Column -->
+        <div class="pa-detail-main">
+
+          <!-- Intro -->
+          <div class="pa-detail-intro reveal">
+            <h2>{{content.intro_heading}}</h2>
+            <div class="divider"></div>
+            {{{content.intro_body}}}
+          </div>
+
+          <!-- What We Handle -->
+          {{#content.charges_heading}}
+          <div class="pa-detail-block reveal">
+            <h2>{{content.charges_heading}}</h2>
+            <div class="divider"></div>
+            <p>{{content.charges_intro}}</p>
+            <ul class="pa-detail-bullets">
+              {{#charges}}
+              <li>
+                <i data-lucide="check-circle" style="width:18px;height:18px;"></i>
+                <span>{{.}}</span>
+              </li>
+              {{/charges}}
+            </ul>
+          </div>
+          {{/content.charges_heading}}
+
+          <!-- Why You Need a Lawyer -->
+          {{#content.why_heading}}
+          <div class="pa-detail-block reveal">
+            <h2>{{content.why_heading}}</h2>
+            <div class="divider"></div>
+            {{{content.why_body}}}
+          </div>
+          {{/content.why_heading}}
+
+          <!-- Defense Strategies -->
+          <div class="pa-detail-block reveal">
+            <h2>{{content.strategies_heading}}</h2>
+            <div class="divider"></div>
+            <div class="pa-detail-strategies-grid">
+              {{#strategies}}
+              <div class="pa-detail-strategy-card">
+                <div class="pa-detail-strategy-icon">
+                  <i data-lucide="{{icon}}" style="width:22px;height:22px;"></i>
+                </div>
+                <div>
+                  <h4>{{title}}</h4>
+                  <p>{{description}}</p>
+                </div>
+              </div>
+              {{/strategies}}
+            </div>
+          </div>
+
+          <!-- Additional Content -->
+          {{#content.extra_body}}
+          <div class="pa-detail-block reveal">
+            {{{content.extra_body}}}
+          </div>
+          {{/content.extra_body}}
+
+          <!-- FAQ -->
+          <div class="pa-detail-block reveal">
+            <h2>Frequently Asked Questions</h2>
+            <div class="divider"></div>
+            <div class="pa-detail-faqs">
+              {{#faqs}}
+              <div class="pa-detail-faq-item">
+                <h4>{{question}}</h4>
+                <p>{{answer}}</p>
+              </div>
+              {{/faqs}}
+            </div>
+          </div>
+
+        </div><!-- /.pa-detail-main -->
+
+        <!-- Sidebar -->
+        <aside class="pa-detail-sidebar">
+
+          <!-- Contact CTA -->
+          <div class="pa-sidebar-cta">
+            <h3>Get a Free Consultation</h3>
+            <p>Facing {{hero.title}} charges? Do not wait. Early legal intervention can make a decisive difference. Contact James M. Byrd today.</p>
+            <a href="/contact/" class="btn btn-primary" style="width:100%;justify-content:center;margin-bottom:0.75rem;">Contact Us Now</a>
+            <a href="tel:+12514382973" class="btn btn-outline" style="width:100%;justify-content:center;">Call 251-438-2973</a>
+            <div class="pa-sidebar-hours">
+              <i data-lucide="clock" style="width:15px;height:15px;color:var(--color-secondary);flex-shrink:0;"></i>
+              <span>Mon &ndash; Fri, 8:00 AM &ndash; 5:00 PM CST</span>
+            </div>
+          </div>
+
+          <!-- Attorney Info -->
+          <div class="pa-sidebar-attorney">
+            <img
+              src="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/james-m-byrd-headshot.jpg"
+              alt="James M. Byrd, Criminal Defense Attorney"
+              width="80" height="80"
+            />
+            <div>
+              <p class="pa-sidebar-attorney-name">James M. Byrd</p>
+              <p class="pa-sidebar-attorney-title">Criminal Defense Attorney</p>
+              <p class="pa-sidebar-attorney-exp">Practicing Since 1979</p>
+            </div>
+          </div>
+
+          <!-- Related Practice Areas -->
+          <div class="pa-sidebar-related">
+            <h4>Other Practice Areas</h4>
+            <ul>
+              <li><a href="/practice-areas/criminal-law/"><i data-lucide="scale" style="width:14px;height:14px;"></i> Criminal Law</a></li>
+              <li><a href="/practice-areas/federal-white-collar-crime/"><i data-lucide="landmark" style="width:14px;height:14px;"></i> Federal White Collar Crime</a></li>
+              <li><a href="/practice-areas/dui-dwi/"><i data-lucide="car" style="width:14px;height:14px;"></i> DUI / DWI Defense</a></li>
+            </ul>
+          </div>
+
+          <!-- Service Area -->
+          <div class="pa-sidebar-areas">
+            <h4>Areas Served</h4>
+            <p>Representing clients throughout South Alabama, including Mobile, Baldwin, Escambia, Marengo, Monroe, Washington, Choctaw, and surrounding counties.</p>
+            <a href="/areas-served/" class="pa-sidebar-areas-link">View All Areas Served &rarr;</a>
+          </div>
+
+        </aside>
+
+      </div><!-- /.pa-detail-layout -->
+    </div>
+  </section>
+
+  <!-- Bottom CTA -->
+  <section class="pa-detail-cta">
+    <div class="container">
+      <h2 class="reveal">{{cta.heading}}</h2>
+      <p class="reveal" data-delay="0.1s">{{cta.text}}</p>
+      <div class="reveal" data-delay="0.2s" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="{{cta.url}}" class="btn btn-white btn-lg">{{cta.button_text}}</a>
+        <a href="tel:+12514382973" class="btn btn-outline-white btn-lg">Call 251-438-2973</a>
+      </div>
+    </div>
+  </section>
+
+  <div data-include="footer"></div>
+
+  <script>lucide.createIcons();</script>
+  <script src="/js/loader.js"></script>
+  <script src="/js/animations.js"></script>
+
+</body>
+</html>

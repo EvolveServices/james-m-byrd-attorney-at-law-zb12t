@@ -1,0 +1,74 @@
+{
+  "slug": "clark-county",
+  "template": "areas-served",
+  "output": "/areas-served/clark-county/index.html",
+  "meta": {
+    "title": "Clarke County Criminal Defense Attorney | James M. Byrd",
+    "description": "James M. Byrd defends clients charged with crimes in Clarke County, Alabama. Experienced representation in the 1st Judicial Circuit, District Court, and Grove Hill Municipal Court. Call 251-438-2973."
+  },
+  "hero": {
+    "title": "Criminal Defense Attorney in Clarke County",
+    "subtitle": "James M. Byrd provides skilled criminal defense representation throughout Clarke County, Alabama. With more than 45 years of courtroom experience in Southwest Alabama, he is prepared to defend your rights in every Clarke County court.",
+    "county_name": "Clarke County"
+  },
+  "content": {
+    "intro_heading": "Experienced Criminal Defense in Clarke County, Alabama",
+    "intro_body": "<p>Clarke County sits in the heart of Southwest Alabama, bordered by the Tombigbee River to the east and defined by close-knit communities that take reputation and standing seriously. A criminal charge in Grove Hill, Jackson, or anywhere in Clarke County can have lasting consequences on your employment, your relationships, and your freedom. James M. Byrd understands those stakes.</p><p>Mr. Byrd has been serving clients in the 1st Judicial Circuit, which covers Clarke County, since the early days of his practice. He knows the court personnel, the local rules, and the procedural nuances that can affect outcomes in a criminal case. Whether you are facing a first-offense DUI, a drug charge, or a serious felony allegation, he brings the same thorough preparation and vigorous advocacy to every case.</p><p>Clarke County may be a smaller rural community, but the consequences of a criminal conviction are no smaller here than in any major city. Probation, fines, driver's license suspension, and possible imprisonment are all on the table. Hiring an experienced attorney as early as possible gives you the best chance of a favorable resolution.</p><p>James M. Byrd will listen carefully to the facts of your case, investigate the evidence against you, challenge any unconstitutional police conduct, and negotiate forcefully with prosecutors on your behalf. If your case must go to trial, he has the courtroom experience to represent you effectively before a Clarke County jury.</p>",
+    "services_intro": "James M. Byrd defends clients against a full range of criminal charges in Clarke County courts, including:",
+    "why_heading": "Why Clarke County Residents Trust James M. Byrd",
+    "why_body": "<p>When you are charged with a crime in a rural Alabama county, you need an attorney who respects the local community and understands the dynamics of a small-county courthouse. James M. Byrd has spent his career in Southwest Alabama and brings exactly that perspective to every Clarke County case he accepts.</p><p>His record spans more than four decades of continuous criminal defense practice. He comes from a family of defense attorneys, attended Duke University and the University of Alabama, and earned his law degree from the University of Alabama School of Law in 1979. He passed the Alabama State Bar that same year and immediately began defending clients across the region, including Clarke County.</p><p>Mr. Byrd approaches every case personally. He will not hand your matter off to a junior associate. You will work directly with him throughout the entire process, from the initial consultation through any trial or appeal. That level of personal attention, combined with his depth of experience, is what sets him apart from attorneys who simply process cases in volume.</p><p>If you have been charged with a crime in Clarke County and you want someone with proven experience defending the wrongly accused, contact James M. Byrd today. A confidential consultation costs you nothing and could make a significant difference in your future.</p>"
+  },
+  "courts": [
+    {
+      "icon": "landmark",
+      "name": "Clarke County Circuit Court (1st Judicial Circuit)",
+      "description": "The 1st Judicial Circuit handles all felony criminal matters in Clarke County, including drug trafficking, violent crimes, property crimes, and DUI cases with aggravating factors or prior convictions."
+    },
+    {
+      "icon": "scale",
+      "name": "Clarke County District Court",
+      "description": "Handles misdemeanor criminal cases, traffic violations, small claims, and preliminary hearings for felony charges before they are bound over to Circuit Court."
+    },
+    {
+      "icon": "building-2",
+      "name": "Grove Hill Municipal Court",
+      "description": "The municipal court for Clarke County's seat handles city ordinance violations and lower-level misdemeanor offenses occurring within the city limits of Grove Hill."
+    },
+    {
+      "icon": "building-2",
+      "name": "Jackson Municipal Court",
+      "description": "Jackson, the county's largest city, has its own municipal court handling local ordinance violations, traffic matters, and misdemeanor offenses arising within Jackson city limits."
+    }
+  ],
+  "services": [
+    "Criminal Law (Felonies and Misdemeanors)",
+    "DUI / DWI Defense",
+    "Drug Possession and Trafficking",
+    "Assault and Violent Crimes",
+    "Theft and Property Crimes",
+    "Federal White Collar Crime",
+    "Probation and Parole Violations",
+    "Expungements"
+  ],
+  "all_areas": [
+    { "name": "Mobile County", "link": "/areas-served/mobile-county/" },
+    { "name": "Baldwin County", "link": "/areas-served/baldwin-county/" },
+    { "name": "Clarke County", "link": "/areas-served/clark-county/" },
+    { "name": "Choctaw County", "link": "/areas-served/choctaw-county/" },
+    { "name": "Escambia County", "link": "/areas-served/escambia-county/" },
+    { "name": "Marengo County", "link": "/areas-served/marengo-county/" },
+    { "name": "Monroe County", "link": "/areas-served/monroe-county/" },
+    { "name": "Washington County", "link": "/areas-served/washington-county/" }
+  ],
+  "map": {
+    "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206628.5!2d-87.8289!3d31.6815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888fc0d7c9e9c6e7%3A0x1a3b8c5d2e4f6g7h!2sClarke%20County%2C%20AL!5e0!3m2!1sen!2sus!4v1710000000001",
+    "heading": "Clarke County, Alabama",
+    "subheading": "Serving clients throughout Clarke County, from Grove Hill and Jackson to every community in between."
+  },
+  "cta": {
+    "heading": "Charged with a Crime in Clarke County?",
+    "text": "Do not face Clarke County's court system without experienced legal representation. James M. Byrd will fight to protect your rights and your future. Call or contact us online to schedule a confidential consultation.",
+    "url": "/contact/",
+    "button_text": "Schedule a Free Consultation"
+  }
+}

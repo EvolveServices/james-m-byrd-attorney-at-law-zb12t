@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" sizes="32x32" href="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/branding/jmb-avatar-favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/branding/jmb-avatar-favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/branding/jmb-avatar-favicon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{meta.title}} | James M. Byrd, Attorney at Law</title>
+  <meta name="description" content="{{meta.description}}" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="/css/animations.css" />
+  <link rel="stylesheet" href="/css/templates/areas-served.css" />
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+  <div data-include="navbar"></div>
+
+  <!-- Hero -->
+  <section class="as-listing-hero">
+    <div class="as-listing-hero-overlay"></div>
+    <div class="container">
+      <div class="as-listing-hero-content">
+        <span class="section-label">{{hero.label}}</span>
+        <h1>{{hero.title}}</h1>
+        <p>{{hero.subtitle}}</p>
+        <a href="/contact/" class="btn btn-secondary btn-lg">Schedule a Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro Strip -->
+  <div class="as-listing-intro-strip">
+    <div class="container">
+      <div class="as-listing-intro-inner">
+        <p>{{intro.text}} Call <a href="tel:+12514382973" style="color:#fff;font-weight:700;text-decoration:underline;">251-438-2973</a> today.</p>
+        <a href="/contact/" class="btn btn-white" style="flex-shrink:0;">Free Case Review</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- State / County Cards Grid -->
+  <section class="section as-listing-cards-section">
+    <div class="container">
+      <div class="as-listing-section-header reveal">
+        <h2>{{cards.heading}}</h2>
+        <div class="divider-center"></div>
+        <p>{{cards.subheading}}</p>
+      </div>
+      <div class="as-listing-grid">
+        {{#items}}
+        <article class="as-listing-card reveal" data-delay="{{delay}}">
+          <div class="as-listing-card-img-wrap">
+            <img src="{{image}}" alt="{{image_alt}}" width="480" height="260" loading="lazy" />
+            <span class="as-listing-card-badge">{{badge}}</span>
+          </div>
+          <div class="as-listing-card-body">
+            <div class="as-listing-card-header">
+              <div class="as-listing-card-icon">
+                <i data-lucide="map-pin" style="width:18px;height:18px;"></i>
+              </div>
+              <h3>{{title}}</h3>
+            </div>
+            <p>{{description}}</p>
+            <ul class="as-listing-card-services">
+              {{#services}}
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>{{.}}</span></li>
+              {{/services}}
+            </ul>
+            <a href="{{link}}" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        {{/items}}
+      </div>
+    </div>
+  </section>
+
+  <!-- Federal Courts Section -->
+  <section class="section as-listing-federal">
+    <div class="container">
+      <div class="as-listing-federal-inner reveal">
+        <div class="as-listing-federal-text">
+          <span class="section-label">Federal Practice</span>
+          <h2>Federal Court Representation</h2>
+          <div class="divider"></div>
+          <p>Beyond state courts, James M. Byrd is licensed to practice in federal courts serving Alabama and beyond, providing comprehensive criminal defense at every level of the federal judicial system.</p>
+          <ul class="as-listing-federal-courts">
+            <li><i data-lucide="landmark" style="width:16px;height:16px;"></i><span>Federal District Court for the Southern District of Alabama</span></li>
+            <li><i data-lucide="landmark" style="width:16px;height:16px;"></i><span>Eleventh Circuit Court of Appeals</span></li>
+            <li><i data-lucide="landmark" style="width:16px;height:16px;"></i><span>The United States Supreme Court</span></li>
+          </ul>
+          <a href="/practice-areas/federal-white-collar-crime/" class="btn btn-primary">Federal Defense Information</a>
+        </div>
+        <div class="as-listing-federal-img">
+          <img
+            src="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background-concepts-law.jpg"
+            alt="Federal courthouse representing federal criminal defense"
+            width="560" height="380"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom CTA -->
+  <section class="as-listing-cta">
+    <div class="container">
+      <h2 class="reveal">Serving Mobile and Surrounding Counties Since 1979</h2>
+      <p class="reveal" data-delay="0.1s">No matter where in our service area you are located, James M. Byrd will come to your defense. Contact us today for a confidential consultation.</p>
+      <div class="reveal" data-delay="0.2s" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="/contact/" class="btn btn-white btn-lg">Schedule a Free Consultation</a>
+        <a href="tel:+12514382973" class="btn btn-outline-white btn-lg">Call 251-438-2973</a>
+      </div>
+    </div>
+  </section>
+
+  <div data-include="footer"></div>
+
+  <script>lucide.createIcons();</script>
+  <script src="/js/loader.js"></script>
+  <script src="/js/animations.js"></script>
+
+</body>
+</html>

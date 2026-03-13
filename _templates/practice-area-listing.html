@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" sizes="32x32" href="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/branding/jmb-avatar-favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/branding/jmb-avatar-favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/branding/jmb-avatar-favicon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{meta.title}} | James M. Byrd, Attorney at Law</title>
+  <meta name="description" content="{{meta.description}}" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="/css/animations.css" />
+  <link rel="stylesheet" href="/css/templates/practice-area.css" />
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+  <div data-include="navbar"></div>
+
+  <!-- Hero -->
+  <section class="pa-listing-hero">
+    <div class="pa-listing-hero-overlay"></div>
+    <div class="container">
+      <div class="pa-listing-hero-content">
+        <span class="section-label">{{hero.label}}</span>
+        <h1>{{hero.title}}</h1>
+        <p>{{hero.subtitle}}</p>
+        <a href="/contact/" class="btn btn-secondary btn-lg">Schedule a Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro Strip -->
+  <div class="pa-listing-intro-strip">
+    <div class="container">
+      <div class="pa-listing-intro-inner">
+        <p>{{intro.text}} Call <a href="tel:+12514382973" style="color:#fff;font-weight:700;text-decoration:underline;">251-438-2973</a> today.</p>
+        <a href="/contact/" class="btn btn-white" style="flex-shrink:0;">Free Case Review</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card Grid -->
+  <section class="section pa-listing-cards-section">
+    <div class="container">
+      <div class="pa-listing-section-header reveal">
+        <h2>{{cards.heading}}</h2>
+        <div class="divider-center"></div>
+        <p>{{cards.subheading}}</p>
+      </div>
+      <div class="pa-listing-grid">
+        {{#items}}
+        <article class="pa-listing-card reveal" data-delay="{{delay}}">
+          <div class="pa-listing-card-img-wrap">
+            <img src="{{image}}" alt="{{image_alt}}" width="480" height="280" loading="lazy" />
+            <span class="pa-listing-card-badge">{{badge}}</span>
+          </div>
+          <div class="pa-listing-card-body">
+            <div class="pa-listing-card-icon">
+              <i data-lucide="{{icon}}" style="width:22px;height:22px;"></i>
+            </div>
+            <h3>{{title}}</h3>
+            <p>{{description}}</p>
+            <ul class="pa-listing-card-bullets">
+              {{#highlights}}
+              <li><i data-lucide="check" style="width:14px;height:14px;"></i><span>{{.}}</span></li>
+              {{/highlights}}
+            </ul>
+            <a href="{{link}}" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        {{/items}}
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="section pa-listing-why">
+    <div class="container">
+      <div class="pa-listing-why-header reveal">
+        <h2>Why Clients Trust James M. Byrd</h2>
+        <div class="divider-center"></div>
+      </div>
+      <div class="pa-listing-why-grid">
+        <div class="pa-listing-why-card reveal">
+          <div class="pa-listing-why-icon">
+            <i data-lucide="shield-check" style="width:26px;height:26px;"></i>
+          </div>
+          <h3>40+ Years of Experience</h3>
+          <p>Attorney Byrd has practiced criminal defense exclusively since 1979, accumulating deep courtroom knowledge that only comes with decades of hands-on work.</p>
+        </div>
+        <div class="pa-listing-why-card reveal" data-delay="0.1s">
+          <div class="pa-listing-why-icon">
+            <i data-lucide="target" style="width:26px;height:26px;"></i>
+          </div>
+          <h3>Focused Criminal Defense</h3>
+          <p>Mr. Byrd does not divide his attention among unrelated practice areas. Criminal defense is his sole focus, giving every client the full benefit of that specialization.</p>
+        </div>
+        <div class="pa-listing-why-card reveal" data-delay="0.2s">
+          <div class="pa-listing-why-icon">
+            <i data-lucide="users" style="width:26px;height:26px;"></i>
+          </div>
+          <h3>Personal Representation</h3>
+          <p>When you hire James M. Byrd, you work directly with Mr. Byrd. He listens to your story, explains your options, and fights for the best possible outcome.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom CTA -->
+  <section class="pa-listing-cta">
+    <div class="container">
+      <h2 class="reveal">Facing Criminal Charges? Do Not Wait.</h2>
+      <p class="reveal" data-delay="0.1s">Early intervention by an experienced attorney can make a decisive difference in the outcome of your case. Contact James M. Byrd today for a confidential consultation.</p>
+      <div class="reveal" data-delay="0.2s" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="/contact/" class="btn btn-white btn-lg">Schedule a Free Consultation</a>
+        <a href="tel:+12514382973" class="btn btn-outline-white btn-lg">Call 251-438-2973</a>
+      </div>
+    </div>
+  </section>
+
+  <div data-include="footer"></div>
+
+  <script>lucide.createIcons();</script>
+  <script src="/js/loader.js"></script>
+  <script src="/js/animations.js"></script>
+
+</body>
+</html>

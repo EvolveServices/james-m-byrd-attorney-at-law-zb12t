@@ -1,0 +1,74 @@
+{
+  "slug": "marengo-county",
+  "template": "areas-served",
+  "output": "/areas-served/marengo-county/index.html",
+  "meta": {
+    "title": "Marengo County Criminal Defense Attorney | James M. Byrd",
+    "description": "James M. Byrd defends clients charged with crimes in Marengo County, Alabama. Experienced representation in the 4th Judicial Circuit, Marengo County District Court, and Linden Municipal Court. Call 251-438-2973."
+  },
+  "hero": {
+    "title": "Criminal Defense Attorney in Marengo County",
+    "subtitle": "James M. Byrd brings more than 45 years of criminal defense experience to clients throughout Marengo County, Alabama. From Linden to Demopolis, he is prepared to defend your rights in every courtroom in the 4th Judicial Circuit.",
+    "county_name": "Marengo County"
+  },
+  "content": {
+    "intro_heading": "Skilled Criminal Defense Throughout Marengo County",
+    "intro_body": "<p>Marengo County occupies the Black Belt region of Alabama, stretching from the Tombigbee River in the west to the communities of Demopolis and Linden in the heart of the county. Like many of Alabama's rural counties, Marengo sees a wide range of criminal matters each year, from traffic-related offenses and drug charges to more serious violent crimes and property offenses.</p><p>James M. Byrd has practiced criminal defense in the 4th Judicial Circuit, which includes Marengo County, throughout his career. His familiarity with the circuit's judges, prosecutors, and court administrators gives him a practical advantage when representing Marengo County defendants. He understands that every case is unique and that the strategic decisions made in the early stages of a criminal matter can determine its ultimate outcome.</p><p>Many Marengo County residents who are charged with crimes find themselves uncertain about what to expect. The Alabama criminal justice system can be complex and intimidating, particularly for those who have never been involved in it before. James M. Byrd takes the time to explain the process clearly, answer your questions honestly, and help you make informed decisions at every stage of your case.</p><p>From the initial arrest and bond hearing through arraignment, discovery, pre-trial motions, plea negotiations, and, if necessary, trial, Mr. Byrd is with you every step of the way. He handles a full range of criminal charges and is equally comfortable in a courtroom and at the negotiating table. If you need a defense attorney in Marengo County, call today to discuss your situation.</p>",
+    "services_intro": "James M. Byrd handles the full spectrum of criminal charges in Marengo County courts, including:",
+    "why_heading": "Why Marengo County Residents Turn to James M. Byrd",
+    "why_body": "<p>A criminal charge in a rural Alabama county like Marengo can feel isolating. The local court community is small, and defendants can sometimes feel at a disadvantage without experienced legal representation. James M. Byrd levels the playing field. He has spent his entire career in Southwest Alabama and brings the same depth of preparation and courtroom skill to Marengo County that he applies in Mobile County's busy urban courts.</p><p>Mr. Byrd's background is particularly well-suited to the challenges Marengo County defendants face. He graduated from the University of Alabama School of Law in 1979, passed the Alabama State Bar the same year, and immediately began building a criminal defense practice rooted in Alabama's courts. That means over 45 years of experience representing individuals in situations much like yours.</p><p>He is a skilled negotiator who understands how to present mitigating circumstances to prosecutors and judges in a way that can lead to reduced charges, deferred prosecution agreements, or non-custodial sentences. When negotiations do not produce an acceptable result, he is a seasoned trial attorney who will present a compelling defense to a Marengo County jury.</p><p>Contact James M. Byrd today if you or a loved one has been arrested or charged with a crime in Marengo County. A confidential consultation is the first step toward understanding your options and protecting your future.</p>"
+  },
+  "courts": [
+    {
+      "icon": "landmark",
+      "name": "Marengo County Circuit Court (4th Judicial Circuit)",
+      "description": "The 4th Judicial Circuit handles all felony criminal cases in Marengo County, including drug trafficking, violent crimes, property offenses, and serious DUI charges with prior convictions."
+    },
+    {
+      "icon": "scale",
+      "name": "Marengo County District Court",
+      "description": "Handles misdemeanor criminal matters, traffic violations, and preliminary hearings for felony cases before transfer to Circuit Court."
+    },
+    {
+      "icon": "building-2",
+      "name": "Linden Municipal Court",
+      "description": "Linden, the county seat of Marengo County, has a municipal court that handles city ordinance violations and lower-level misdemeanor matters within Linden city limits."
+    },
+    {
+      "icon": "building-2",
+      "name": "Demopolis Municipal Court",
+      "description": "Demopolis is Marengo County's largest city and its municipal court handles local ordinance violations, traffic matters, and misdemeanor offenses within the city."
+    }
+  ],
+  "services": [
+    "Criminal Law (Felonies and Misdemeanors)",
+    "DUI / DWI Defense",
+    "Drug Possession and Trafficking",
+    "Assault and Violent Crimes",
+    "Theft and Property Crimes",
+    "Federal White Collar Crime",
+    "Probation and Parole Violations",
+    "Expungements"
+  ],
+  "all_areas": [
+    { "name": "Mobile County", "link": "/areas-served/mobile-county/" },
+    { "name": "Baldwin County", "link": "/areas-served/baldwin-county/" },
+    { "name": "Clarke County", "link": "/areas-served/clark-county/" },
+    { "name": "Choctaw County", "link": "/areas-served/choctaw-county/" },
+    { "name": "Escambia County", "link": "/areas-served/escambia-county/" },
+    { "name": "Marengo County", "link": "/areas-served/marengo-county/" },
+    { "name": "Monroe County", "link": "/areas-served/monroe-county/" },
+    { "name": "Washington County", "link": "/areas-served/washington-county/" }
+  ],
+  "map": {
+    "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206628.5!2d-87.7984!3d32.2540!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888f8b2c3d4e5f6a%3A0x4d6e0f8a9b2c3d4e!2sMarengo%20County%2C%20AL!5e0!3m2!1sen!2sus!4v1710000000004",
+    "heading": "Marengo County, Alabama",
+    "subheading": "Serving clients throughout Marengo County, from Linden and Demopolis to every community across this Alabama Black Belt county."
+  },
+  "cta": {
+    "heading": "Charged with a Crime in Marengo County?",
+    "text": "James M. Byrd provides skilled criminal defense representation throughout Marengo County and the 4th Judicial Circuit. Call today or contact us online to schedule a confidential consultation.",
+    "url": "/contact/",
+    "button_text": "Schedule a Free Consultation"
+  }
+}

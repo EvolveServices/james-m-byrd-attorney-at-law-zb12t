@@ -1,0 +1,74 @@
+{
+  "slug": "monroe-county",
+  "template": "areas-served",
+  "output": "/areas-served/monroe-county/index.html",
+  "meta": {
+    "title": "Monroe County Criminal Defense Attorney | James M. Byrd",
+    "description": "James M. Byrd defends clients charged with crimes in Monroe County, Alabama. Experienced representation in the 4th Judicial Circuit, Monroe County District Court, and Monroeville Municipal Court. Call 251-438-2973."
+  },
+  "hero": {
+    "title": "Criminal Defense Attorney in Monroe County",
+    "subtitle": "James M. Byrd has spent more than 45 years defending clients throughout Southwest Alabama, including Monroe County. Whether you face a misdemeanor charge or a serious felony, he brings the same dedication and skill to every case in the 4th Judicial Circuit.",
+    "county_name": "Monroe County"
+  },
+  "content": {
+    "intro_heading": "Defending Clients Across Monroe County, Alabama",
+    "intro_body": "<p>Monroe County, Alabama, holds a distinctive place in American legal history as the home of Harper Lee and the inspiration for \"To Kill a Mockingbird.\" The county courthouse in Monroeville is one of the most recognized courthouses in the nation. But for those who find themselves charged with a crime in Monroe County today, the courthouse represents something far more immediate: a legal proceeding with serious, real-world consequences for their life and liberty.</p><p>James M. Byrd understands those stakes. He has been defending clients in Monroe County and throughout the 4th Judicial Circuit for decades. He approaches every case with the same intensity and preparation, whether his client faces a first-offense DUI or a felony charge that could mean years in prison. In a county where the legal community is small and everyone knows everyone, having an experienced, respected attorney in your corner matters enormously.</p><p>Monroe County's rural character means that some defendants may feel they have limited legal options or that the outcome is predetermined. That is simply not true. Every defendant has constitutional rights, and every prosecution has potential weaknesses. James M. Byrd investigates each case thoroughly, challenges inadmissible evidence, questions the reliability of witness testimony, and holds the government to its burden of proof every step of the way.</p><p>If you have been charged with a crime in Monroe County, do not resign yourself to the worst outcome before exploring your options. Contact James M. Byrd today for a confidential consultation and learn what an experienced defense attorney can do for you.</p>",
+    "services_intro": "James M. Byrd defends Monroe County clients against a comprehensive range of criminal charges, including:",
+    "why_heading": "Why Monroe County Defendants Trust James M. Byrd",
+    "why_body": "<p>Monroe County is a small community, and a criminal charge there can feel particularly public and consequential. James M. Byrd understands the weight that carries. He treats every Monroe County client with the discretion, respect, and personal attention their situation demands.</p><p>His track record spans more than four decades of continuous criminal defense practice in Alabama. He graduated from the University of Alabama School of Law, passed the Alabama State Bar in 1979, and has defended clients in every type of Alabama criminal court, from municipal courts handling minor misdemeanors to the Circuit Court dealing with serious felonies and the Federal District Court handling white collar and drug trafficking cases.</p><p>Mr. Byrd is also licensed to appear before the Eleventh Circuit Court of Appeals and the United States Supreme Court, meaning he can pursue appeals at the highest levels if necessary. That breadth of licensure and experience is rare and valuable, particularly when a case raises complex constitutional issues that may need to be litigated beyond the trial court.</p><p>At the Monroe County Circuit Court level and below, Mr. Byrd is a skilled negotiator and a formidable trial advocate. He knows how to read a room, assess a jury, and present a defense that resonates with the community where the case will be decided. That local sensibility, combined with decades of legal experience, is what Monroe County residents deserve when their freedom is on the line.</p>"
+  },
+  "courts": [
+    {
+      "icon": "landmark",
+      "name": "Monroe County Circuit Court (4th Judicial Circuit)",
+      "description": "The 4th Judicial Circuit handles all felony criminal matters in Monroe County, including drug offenses, violent crimes, property felonies, and aggravated DUI charges with prior convictions."
+    },
+    {
+      "icon": "scale",
+      "name": "Monroe County District Court",
+      "description": "Handles misdemeanor criminal matters, traffic violations, and preliminary hearings for felony charges before they are bound over to Circuit Court."
+    },
+    {
+      "icon": "building-2",
+      "name": "Monroeville Municipal Court",
+      "description": "The Monroeville Municipal Court handles city ordinance violations and misdemeanor matters occurring within the city limits of Monroeville, the Monroe County seat."
+    },
+    {
+      "icon": "building-2",
+      "name": "Evergreen Municipal Court",
+      "description": "Handles local ordinance violations and misdemeanor matters within the city of Evergreen, located in neighboring Conecuh County but serving the broader South Alabama region."
+    }
+  ],
+  "services": [
+    "Criminal Law (Felonies and Misdemeanors)",
+    "DUI / DWI Defense",
+    "Drug Possession and Trafficking",
+    "Assault and Violent Crimes",
+    "Theft and Property Crimes",
+    "Federal White Collar Crime",
+    "Probation and Parole Violations",
+    "Expungements"
+  ],
+  "all_areas": [
+    { "name": "Mobile County", "link": "/areas-served/mobile-county/" },
+    { "name": "Baldwin County", "link": "/areas-served/baldwin-county/" },
+    { "name": "Clarke County", "link": "/areas-served/clark-county/" },
+    { "name": "Choctaw County", "link": "/areas-served/choctaw-county/" },
+    { "name": "Escambia County", "link": "/areas-served/escambia-county/" },
+    { "name": "Marengo County", "link": "/areas-served/marengo-county/" },
+    { "name": "Monroe County", "link": "/areas-served/monroe-county/" },
+    { "name": "Washington County", "link": "/areas-served/washington-county/" }
+  ],
+  "map": {
+    "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206628.5!2d-87.3345!3d31.6543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889b6a2c4d3e5f7b%3A0x5e7f0g9a1b3c4d5e!2sMonroe%20County%2C%20AL!5e0!3m2!1sen!2sus!4v1710000000005",
+    "heading": "Monroe County, Alabama",
+    "subheading": "Serving clients throughout Monroe County, from Monroeville and throughout this historic South Alabama county."
+  },
+  "cta": {
+    "heading": "Facing Criminal Charges in Monroe County?",
+    "text": "James M. Byrd will defend your rights and fight for the best possible outcome in your Monroe County case. Call us today or fill out the contact form to schedule a confidential consultation.",
+    "url": "/contact/",
+    "button_text": "Schedule a Free Consultation"
+  }
+}

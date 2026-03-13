@@ -1,0 +1,74 @@
+{
+  "slug": "washington-county",
+  "template": "areas-served",
+  "output": "/areas-served/washington-county/index.html",
+  "meta": {
+    "title": "Washington County Criminal Defense Attorney | James M. Byrd",
+    "description": "James M. Byrd defends clients charged with crimes in Washington County, Alabama. Experienced representation in the 1st Judicial Circuit, Washington County District Court, and Chatom Municipal Court. Call 251-438-2973."
+  },
+  "hero": {
+    "title": "Criminal Defense Attorney in Washington County",
+    "subtitle": "James M. Byrd has served clients throughout Southwest Alabama, including Washington County, for more than 45 years. From Chatom to McIntosh, he is prepared to build a strong defense in every Washington County courtroom.",
+    "county_name": "Washington County"
+  },
+  "content": {
+    "intro_heading": "Experienced Criminal Defense in Washington County, Alabama",
+    "intro_body": "<p>Washington County is one of Alabama's oldest and most rural counties, spanning a vast stretch of Southwest Alabama between the Tombigbee River and the Mississippi state line. Its communities, including Chatom, McIntosh, and Millry, are known for their strong sense of community identity. A criminal charge in Washington County can have profound consequences on a person's standing in that community, their employment prospects, and their personal freedom.</p><p>James M. Byrd has been practicing criminal defense in the 1st Judicial Circuit, which covers Washington County, for decades. His familiarity with the circuit's courts and legal culture, combined with his over 45 years of hands-on criminal defense experience, gives Washington County defendants a significant advantage when choosing him as their attorney.</p><p>In rural counties like Washington, defendants may sometimes feel that the cards are stacked against them, that local officials know each other well and that an outsider has little chance of mounting a successful defense. James M. Byrd is not an outsider. He has spent his entire career in Southwest Alabama and has built longstanding professional relationships in courts across the region. He is well-known and respected in the 1st Circuit, and he knows how to advocate effectively for his clients within that environment.</p><p>Every criminal case in Washington County deserves thorough, skilled representation. Whether you are facing a misdemeanor traffic charge or a serious felony prosecution, the outcome of your case can affect the rest of your life. Contact James M. Byrd today to begin your defense.</p>",
+    "services_intro": "James M. Byrd provides criminal defense representation throughout Washington County for charges including:",
+    "why_heading": "Why Washington County Clients Choose James M. Byrd",
+    "why_body": "<p>Washington County residents who have been charged with a crime need an attorney they can trust, someone with real experience, genuine local knowledge, and the commitment to fight for them personally. James M. Byrd has all three qualities, developed over more than four decades of practicing criminal defense in Southwest Alabama.</p><p>He graduated from the University of Alabama School of Law in 1979 and began his criminal defense practice immediately after passing the Alabama State Bar. His family background in criminal defense law gave him a foundation of knowledge and values that has guided his practice ever since. He believes deeply in the constitutional rights of every person accused of a crime and works tirelessly to protect those rights in every case he takes.</p><p>In a county the size of Washington, a criminal case can sometimes feel very public. Neighbors talk, word travels quickly, and the social pressures on a defendant can be enormous before a verdict is ever reached. Mr. Byrd handles every case with the discretion and professionalism that protects his clients' dignity throughout the process, not just their legal interests.</p><p>He is also prepared to challenge cases where law enforcement may have overstepped, where evidence was obtained improperly, or where the facts simply do not support the prosecution's theory. In a rural county where resources for public defenders are limited, having private counsel with Mr. Byrd's experience can make an enormous difference in the outcome of a case.</p><p>If you or someone you care about has been arrested or charged in Washington County, do not wait. Call James M. Byrd today and take the first step toward protecting your future.</p>"
+  },
+  "courts": [
+    {
+      "icon": "landmark",
+      "name": "Washington County Circuit Court (1st Judicial Circuit)",
+      "description": "The 1st Judicial Circuit handles all felony criminal cases in Washington County, including drug offenses, violent crimes, property felonies, and DUI charges with prior convictions or aggravating factors."
+    },
+    {
+      "icon": "scale",
+      "name": "Washington County District Court",
+      "description": "Handles misdemeanor criminal cases, traffic violations, and preliminary hearings for felony matters before cases proceed to Circuit Court."
+    },
+    {
+      "icon": "building-2",
+      "name": "Chatom Municipal Court",
+      "description": "Chatom is the Washington County seat and its municipal court handles city ordinance violations and lower-level misdemeanor offenses occurring within Chatom city limits."
+    },
+    {
+      "icon": "building-2",
+      "name": "McIntosh Municipal Court",
+      "description": "Handles city ordinance violations and misdemeanor traffic matters for residents and visitors within McIntosh city limits in northern Washington County."
+    }
+  ],
+  "services": [
+    "Criminal Law (Felonies and Misdemeanors)",
+    "DUI / DWI Defense",
+    "Drug Possession and Trafficking",
+    "Assault and Violent Crimes",
+    "Theft and Property Crimes",
+    "Federal White Collar Crime",
+    "Probation and Parole Violations",
+    "Expungements"
+  ],
+  "all_areas": [
+    { "name": "Mobile County", "link": "/areas-served/mobile-county/" },
+    { "name": "Baldwin County", "link": "/areas-served/baldwin-county/" },
+    { "name": "Clarke County", "link": "/areas-served/clark-county/" },
+    { "name": "Choctaw County", "link": "/areas-served/choctaw-county/" },
+    { "name": "Escambia County", "link": "/areas-served/escambia-county/" },
+    { "name": "Marengo County", "link": "/areas-served/marengo-county/" },
+    { "name": "Monroe County", "link": "/areas-served/monroe-county/" },
+    { "name": "Washington County", "link": "/areas-served/washington-county/" }
+  ],
+  "map": {
+    "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206628.5!2d-88.2015!3d31.4041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889a5b3c2d4e6f8a%3A0x6f8g1h2b3c4d5e6f!2sWashington%20County%2C%20AL!5e0!3m2!1sen!2sus!4v1710000000006",
+    "heading": "Washington County, Alabama",
+    "subheading": "Serving clients throughout Washington County, from Chatom and McIntosh to every community across this Southwest Alabama county."
+  },
+  "cta": {
+    "heading": "Charged with a Crime in Washington County?",
+    "text": "James M. Byrd will provide the experienced, personal criminal defense representation you need in Washington County. Call today or contact us online to schedule a confidential consultation.",
+    "url": "/contact/",
+    "button_text": "Schedule a Free Consultation"
+  }
+}

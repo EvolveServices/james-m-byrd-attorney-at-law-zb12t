@@ -1,0 +1,95 @@
+{
+  "slug": "criminal-law",
+  "template": "practice-area",
+  "output": "/practice-areas/criminal-law/index.html",
+  "meta": {
+    "title": "Criminal Law Defense",
+    "description": "James M. Byrd is a Mobile, Alabama criminal defense attorney with 40+ years defending clients against misdemeanor and felony charges. Call 251-438-2973 for a free consultation."
+  },
+  "hero": {
+    "title": "Criminal Law Defense",
+    "subtitle": "Experienced, aggressive representation for Alabama state criminal charges since 1979. Your freedom and your future deserve a dedicated defender."
+  },
+  "content": {
+    "intro_heading": "Alabama Criminal Defense You Can Rely On",
+    "intro_body": "<p>Being charged with a criminal offense is one of the most serious situations you will ever face. A conviction can result in prison time, heavy fines, a permanent criminal record, and life-altering consequences for your family, your employment, and your freedom. The Alabama criminal justice system is complex and moves quickly, which is why having an experienced attorney at your side from the very beginning is critical.</p><p>James M. Byrd has practiced criminal defense in Alabama exclusively since October 1979. He comes from a family of criminal defense lawyers, attended The University of Alabama School of Law, and has spent every year since his graduation defending the rights of individuals charged with state criminal offenses. He knows Alabama prosecutors, Alabama courts, and the tactics that make the difference between a conviction and a dismissal.</p><p>When you work with Mr. Byrd, you work directly with Mr. Byrd. He reviews your case personally, investigates the facts, challenges the prosecution's evidence, and builds the strongest possible defense strategy on your behalf.</p>",
+    "charges_heading": "State Criminal Charges We Defend",
+    "charges_intro": "Attorney Byrd defends clients against the full range of Alabama state criminal charges, including but not limited to:",
+    "why_heading": "Why You Need an Experienced Criminal Defense Attorney",
+    "why_body": "<p>Many people underestimate the seriousness of criminal charges until it is too late. Even a misdemeanor conviction can result in a permanent criminal record that shows up on background checks for employment, housing, and professional licensing. Felony convictions carry additional consequences: loss of voting rights, loss of the right to possess a firearm, and immigration consequences for non-citizens.</p><p>The prosecution has considerable resources on its side. An experienced defense attorney levels the playing field. Attorney Byrd scrutinizes every element of the state's case: the legality of the arrest and any search, the admissibility of evidence, the reliability of witness testimony, and any procedural errors by law enforcement. In many cases, strong pre-trial motions result in reduced charges or dismissals before a case ever reaches trial.</p><p>If your case does go to trial, James M. Byrd brings decades of jury trial experience and courtroom presence to your defense. He communicates clearly, argues forcefully, and never stops fighting for the best possible outcome.</p>",
+    "strategies_heading": "Defense Strategies We Use",
+    "extra_body": "<h3>The Importance of Early Intervention</h3><p>The earlier you involve an attorney in your criminal case, the more options you have. Before charges are even filed, an attorney can sometimes intervene with the prosecutor to prevent charges altogether or secure a more favorable agreement. Once charges are filed, deadlines for suppression motions and other pre-trial filings begin running immediately.</p><p>Do not wait to see how things unfold. Contact James M. Byrd as soon as you learn you are under investigation or immediately after your arrest. The sooner he can begin working on your defense, the better positioned you will be at every stage of the process.</p>"
+  },
+  "charges": [
+    "Assault and battery (misdemeanor and felony)",
+    "Drug possession and drug trafficking",
+    "Theft, burglary, and robbery",
+    "Homicide and manslaughter",
+    "Sex offenses and crimes against children",
+    "Weapons offenses",
+    "Domestic violence charges",
+    "Property crimes and arson",
+    "Fraud and financial crimes",
+    "Juvenile criminal matters"
+  ],
+  "strategies": [
+    {
+      "icon": "search",
+      "title": "Thorough Case Investigation",
+      "description": "Mr. Byrd reviews all police reports, witness statements, and physical evidence to identify weaknesses in the prosecution's case."
+    },
+    {
+      "icon": "shield",
+      "title": "Suppression of Unlawful Evidence",
+      "description": "Evidence obtained through illegal searches, improper stops, or Miranda violations can be challenged and excluded from trial."
+    },
+    {
+      "icon": "file-text",
+      "title": "Pre-Trial Motion Practice",
+      "description": "Strategic motions to dismiss, suppress, or limit evidence can resolve cases before trial or dramatically improve outcomes."
+    },
+    {
+      "icon": "users",
+      "title": "Witness Examination and Cross-Examination",
+      "description": "Decades of courtroom experience make Mr. Byrd a skilled cross-examiner who can expose inconsistencies and credibility problems in state witnesses."
+    },
+    {
+      "icon": "scale",
+      "title": "Jury Trial Representation",
+      "description": "When a case goes to trial, Mr. Byrd presents a clear, compelling defense narrative and fights aggressively for an acquittal."
+    },
+    {
+      "icon": "refresh-cw",
+      "title": "Post-Conviction Appeals",
+      "description": "If you have already been convicted, Mr. Byrd can evaluate whether grounds exist for a direct appeal or post-conviction relief petition."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do immediately after being arrested in Alabama?",
+      "answer": "Exercise your right to remain silent and request an attorney immediately. Do not answer any questions from law enforcement without your attorney present. Contact James M. Byrd as soon as possible at 251-438-2973."
+    },
+    {
+      "question": "Can criminal charges be dropped or dismissed?",
+      "answer": "Yes. Charges can be dismissed for insufficient evidence, constitutional violations in how evidence was gathered, procedural errors by police or prosecutors, or through successful pre-trial motions. An experienced attorney can identify these opportunities and act on them."
+    },
+    {
+      "question": "What is the difference between a misdemeanor and a felony in Alabama?",
+      "answer": "Misdemeanors carry up to one year in a county jail. Felonies carry more than one year in state prison and have significantly more severe collateral consequences, including loss of voting rights and firearm rights."
+    },
+    {
+      "question": "How long does a criminal case typically take in Alabama?",
+      "answer": "Timelines vary widely depending on the complexity of the charges, court dockets, and whether the case goes to trial. Some misdemeanor matters resolve in a few months, while complex felony trials can take a year or more. Mr. Byrd will keep you informed at every step."
+    },
+    {
+      "question": "Do I need a lawyer even if I think I am guilty?",
+      "answer": "Absolutely. An attorney can often negotiate reduced charges, seek probation or alternative sentencing, challenge how the evidence was obtained, or identify facts that change the picture entirely. Never assume a conviction is inevitable before consulting a defense attorney."
+    }
+  ],
+  "cta": {
+    "heading": "Charged With a Crime in Alabama? Call Now.",
+    "text": "Every day matters when criminal charges are pending. Contact James M. Byrd today for a confidential consultation and learn what an experienced Alabama criminal defense attorney can do for you.",
+    "url": "/contact/",
+    "button_text": "Schedule a Free Consultation"
+  }
+}

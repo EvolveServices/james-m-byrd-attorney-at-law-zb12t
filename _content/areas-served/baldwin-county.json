@@ -1,0 +1,74 @@
+{
+  "slug": "baldwin-county",
+  "template": "areas-served",
+  "output": "/areas-served/baldwin-county/index.html",
+  "meta": {
+    "title": "Baldwin County Criminal Defense Attorney",
+    "description": "James M. Byrd defends clients charged with crimes in Baldwin County, Alabama. Experienced representation in the 28th Judicial Circuit, District Court, and municipal courts. Call 251-438-2973."
+  },
+  "hero": {
+    "title": "Criminal Defense Attorney in Baldwin County",
+    "subtitle": "James M. Byrd provides experienced criminal defense representation throughout Baldwin County. With more than 45 years of practice across Southwest Alabama, he knows what it takes to mount an effective defense in the 28th Judicial Circuit.",
+    "county_name": "Baldwin County"
+  },
+  "content": {
+    "intro_heading": "Experienced Criminal Defense in Baldwin County",
+    "intro_body": "<p>Baldwin County is one of the fastest-growing counties in Alabama, and its courts are active. Whether you are facing a DUI charge after a night out in Gulf Shores, a drug offense in Daphne, or a more serious felony allegation anywhere in the county, James M. Byrd has the experience and dedication to defend you.</p><p>Mr. Byrd has been appearing in Baldwin County courts for decades, building relationships and institutional knowledge that benefit each client he represents. He understands that a criminal charge can upend your life, your family, and your career. His goal is to minimize that impact with an aggressive, thorough defense.</p>",
+    "services_intro": "James M. Byrd defends clients against a full range of criminal charges in Baldwin County courts, including:",
+    "why_heading": "Why Choose James M. Byrd for Your Baldwin County Case",
+    "why_body": "<p>Baldwin County has grown significantly over the past two decades, but the stakes in a criminal proceeding have not changed. A conviction can mean jail time, heavy fines, and a permanent record that follows you for the rest of your life. You need an attorney with real courtroom experience in Alabama's courts, not someone learning on the job.</p><p>James M. Byrd has been a fixture in Southwest Alabama's legal community since 1979. He has argued motions, negotiated with prosecutors, and taken cases to trial across the region, including Baldwin County. He will review the evidence against you, identify weaknesses in the prosecution's case, and advise you honestly about your options every step of the way.</p>"
+  },
+  "courts": [
+    {
+      "icon": "landmark",
+      "name": "Baldwin County Circuit Court (28th Judicial Circuit)",
+      "description": "The 28th Judicial Circuit handles all felony criminal matters in Baldwin County, including drug trafficking, robbery, assault, and serious DUI cases with prior offenses."
+    },
+    {
+      "icon": "scale",
+      "name": "Baldwin County District Court",
+      "description": "Handles misdemeanor criminal cases, traffic violations, and conducts preliminary hearings for felony cases before they are transferred to Circuit Court."
+    },
+    {
+      "icon": "building-2",
+      "name": "Bay Minette Municipal Court",
+      "description": "Handles ordinance violations and lower-level misdemeanor offenses within the Bay Minette city limits."
+    },
+    {
+      "icon": "building-2",
+      "name": "Daphne, Fairhope, and Gulf Shores Municipal Courts",
+      "description": "These active municipal courts in Baldwin County's growing cities handle DUI cases, ordinance violations, and misdemeanor charges within their respective jurisdictions."
+    }
+  ],
+  "services": [
+    "Criminal Law (Felonies and Misdemeanors)",
+    "DUI / DWI Defense",
+    "Drug Possession and Trafficking",
+    "Assault and Violent Crimes",
+    "Theft and Property Crimes",
+    "Federal White Collar Crime",
+    "Probation and Parole Violations",
+    "Expungements"
+  ],
+  "all_areas": [
+    { "name": "Mobile County", "link": "/areas-served/mobile-county/" },
+    { "name": "Baldwin County", "link": "/areas-served/baldwin-county/" },
+    { "name": "Clarke County", "link": "/areas-served/clarke-county/" },
+    { "name": "Choctaw County", "link": "/areas-served/choctaw-county/" },
+    { "name": "Escambia County", "link": "/areas-served/escambia-county/" },
+    { "name": "Marengo County", "link": "/areas-served/marengo-county/" },
+    { "name": "Monroe County", "link": "/areas-served/monroe-county/" },
+    { "name": "Washington County", "link": "/areas-served/washington-county/" }
+  ],
+  "map": {
+    "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221178.76!2d-87.7264!3d30.6588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889aa3c7a40c5d0b%3A0x9dbc765dfc39dc14!2sBaldwin%20County%2C%20AL!5e0!3m2!1sen!2sus!4v1710000000000",
+    "heading": "Baldwin County, Alabama",
+    "subheading": "Serving clients throughout Baldwin County from Bay Minette to Gulf Shores and everywhere in between."
+  },
+  "cta": {
+    "heading": "Charged with a Crime in Baldwin County?",
+    "text": "Do not face Baldwin County's court system alone. James M. Byrd will fight to protect your rights and your future. Call or contact us online to schedule a confidential consultation.",
+    "url": "/contact/",
+    "button_text": "Schedule a Free Consultation"
+  }
+}

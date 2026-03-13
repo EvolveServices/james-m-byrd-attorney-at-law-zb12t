@@ -2,24 +2,72 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/practice-areas",
-      "destination": "/practice-areas/index.html"
-    },
-    {
-      "source": "/areas-served",
-      "destination": "/areas-served/index.html"
-    },
-    {
-      "source": "/about",
-      "destination": "/about/index.html"
+      "source": "/about/attorneys",
+      "destination": "/about/attorneys/index.html"
     },
     {
       "source": "/about/blog",
       "destination": "/about/blog/index.html"
     },
     {
-      "source": "/about/attorneys",
-      "destination": "/about/attorneys/index.html"
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/areas-served/baldwin-county",
+      "destination": "/areas-served/baldwin-county/index.html"
+    },
+    {
+      "source": "/areas-served",
+      "destination": "/areas-served/index.html"
+    },
+    {
+      "source": "/areas-served/mobile-county",
+      "destination": "/areas-served/mobile-county/index.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact/index.html"
+    },
+    {
+      "source": "/practice-areas/criminal-law",
+      "destination": "/practice-areas/criminal-law/index.html"
+    },
+    {
+      "source": "/practice-areas/dui-dwi",
+      "destination": "/practice-areas/dui-dwi/index.html"
+    },
+    {
+      "source": "/practice-areas/federal-white-collar-crime",
+      "destination": "/practice-areas/federal-white-collar-crime/index.html"
+    },
+    {
+      "source": "/practice-areas",
+      "destination": "/practice-areas/index.html"
+    },
+    {
+      "source": "/areas-served/clark-county",
+      "destination": "/areas-served/clark-county/index.html"
+    },
+    {
+      "source": "/areas-served/choctaw-county",
+      "destination": "/areas-served/choctaw-county/index.html"
+    },
+    {
+      "source": "/areas-served/escambia-county",
+      "destination": "/areas-served/escambia-county/index.html"
+    },
+    {
+      "source": "/areas-served/marengo-county",
+      "destination": "/areas-served/marengo-county/index.html"
+    },
+    {
+      "source": "/areas-served/monroe-county",
+      "destination": "/areas-served/monroe-county/index.html"
+    },
+    {
+      "source": "/areas-served/washington-county",
+      "destination": "/areas-served/washington-county/index.html"
     }
   ]
 }

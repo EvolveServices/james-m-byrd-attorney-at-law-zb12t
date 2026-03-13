@@ -1,0 +1,74 @@
+{
+  "slug": "escambia-county",
+  "template": "areas-served",
+  "output": "/areas-served/escambia-county/index.html",
+  "meta": {
+    "title": "Escambia County Criminal Defense Attorney | James M. Byrd",
+    "description": "James M. Byrd defends clients charged with crimes in Escambia County, Alabama. Experienced representation in the 21st Judicial Circuit, Escambia County District Court, and Brewton Municipal Court. Call 251-438-2973."
+  },
+  "hero": {
+    "title": "Criminal Defense Attorney in Escambia County",
+    "subtitle": "James M. Byrd provides aggressive, experienced criminal defense representation throughout Escambia County, Alabama. With more than 45 years of practice in Southwest Alabama courts, he knows how to build an effective defense in the 21st Judicial Circuit.",
+    "county_name": "Escambia County"
+  },
+  "content": {
+    "intro_heading": "Aggressive Criminal Defense in Escambia County",
+    "intro_body": "<p>Escambia County, located in the southwestern corner of Alabama near the Florida state line, presents a unique blend of rural and small-city court environments. The county seat of Brewton and the city of Atmore both see their share of criminal cases each year, and the 21st Judicial Circuit handles a broad range of felony and serious misdemeanor matters with regularity.</p><p>James M. Byrd has been appearing in Escambia County courts and neighboring jurisdictions in the 21st Circuit for the better part of his 45-year career. He brings deep familiarity with Alabama's criminal procedure, substantive criminal law, and the local dynamics that can influence a case's outcome. His goal is always to resolve cases in the most favorable way possible for his clients, whether through negotiation, a motion to suppress unlawfully obtained evidence, or a full jury trial.</p><p>The proximity of Escambia County to Florida means that interstate DUI and drug cases arise regularly here. Officers from multiple agencies, including state troopers, county deputies, and local police, all patrol the area, and the quality of their investigations can vary considerably. Mr. Byrd knows how to scrutinize law enforcement procedures and identify the cracks in a prosecution's case.</p><p>If you have been arrested or charged with a crime in Escambia County, contact James M. Byrd as soon as possible. Early legal intervention can prevent missteps that may limit your options later and can position you for the best possible outcome from the very beginning of the process.</p>",
+    "services_intro": "James M. Byrd represents clients throughout Escambia County on a full range of criminal matters, including:",
+    "why_heading": "Why Escambia County Clients Choose James M. Byrd",
+    "why_body": "<p>Escambia County sits within a region where experienced criminal defense attorneys are not always easy to find. James M. Byrd fills that gap for defendants across Southwest Alabama. He brings metropolitan-level legal skill and experience to rural and small-city courthouses, ensuring that Escambia County clients receive the same quality of representation as defendants in Alabama's largest courts.</p><p>Mr. Byrd earned his law degree from the University of Alabama School of Law in 1979 and immediately began his criminal defense practice in Mobile. Over the decades he has handled cases ranging from minor misdemeanors to complex federal white collar prosecutions. His breadth of experience across Alabama's state courts, the Federal District Court for the Southern District of Alabama, and the Eleventh Circuit Court of Appeals means he is equipped to handle virtually any criminal matter that arises in Escambia County.</p><p>He is also well-versed in DUI defense, which is particularly important in a county where alcohol-related traffic stops occur frequently. He knows how to challenge breathalyzer results, field sobriety test procedures, and the legality of the traffic stop itself. These technical defenses can result in reduced charges, suppressed evidence, or outright dismissals.</p><p>Do not wait until your court date is approaching to hire an attorney. The earlier you engage James M. Byrd, the more time he has to investigate, gather evidence, interview witnesses, and construct the strongest possible defense on your behalf.</p>"
+  },
+  "courts": [
+    {
+      "icon": "landmark",
+      "name": "Escambia County Circuit Court (21st Judicial Circuit)",
+      "description": "The 21st Judicial Circuit handles all felony criminal matters in Escambia County, including drug trafficking, robbery, assault, sexual offenses, and DUI cases with prior convictions or aggravating circumstances."
+    },
+    {
+      "icon": "scale",
+      "name": "Escambia County District Court",
+      "description": "Handles misdemeanor criminal cases, traffic violations, small claims, and preliminary hearings for felony matters before they are transferred to Circuit Court."
+    },
+    {
+      "icon": "building-2",
+      "name": "Brewton Municipal Court",
+      "description": "The Brewton Municipal Court handles city ordinance violations, lower-level traffic matters, and misdemeanor offenses occurring within the Brewton city limits."
+    },
+    {
+      "icon": "building-2",
+      "name": "Atmore Municipal Court",
+      "description": "Atmore's municipal court handles local ordinance violations and misdemeanor traffic matters arising within the city of Atmore, the second-largest city in Escambia County."
+    }
+  ],
+  "services": [
+    "Criminal Law (Felonies and Misdemeanors)",
+    "DUI / DWI Defense",
+    "Drug Possession and Trafficking",
+    "Assault and Violent Crimes",
+    "Theft and Property Crimes",
+    "Federal White Collar Crime",
+    "Probation and Parole Violations",
+    "Expungements"
+  ],
+  "all_areas": [
+    { "name": "Mobile County", "link": "/areas-served/mobile-county/" },
+    { "name": "Baldwin County", "link": "/areas-served/baldwin-county/" },
+    { "name": "Clarke County", "link": "/areas-served/clark-county/" },
+    { "name": "Choctaw County", "link": "/areas-served/choctaw-county/" },
+    { "name": "Escambia County", "link": "/areas-served/escambia-county/" },
+    { "name": "Marengo County", "link": "/areas-served/marengo-county/" },
+    { "name": "Monroe County", "link": "/areas-served/monroe-county/" },
+    { "name": "Washington County", "link": "/areas-served/washington-county/" }
+  ],
+  "map": {
+    "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206628.5!2d-87.1699!3d31.1132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889b1c3e2d4f5a6b%3A0x3c5d0e7f8a9b1c2d!2sEscambia%20County%2C%20AL!5e0!3m2!1sen!2sus!4v1710000000003",
+    "heading": "Escambia County, Alabama",
+    "subheading": "Serving clients throughout Escambia County, from Brewton and Atmore to every community in this Southwest Alabama county."
+  },
+  "cta": {
+    "heading": "Arrested or Charged in Escambia County?",
+    "text": "The time to act is now. James M. Byrd will evaluate your case, protect your constitutional rights, and fight for the best possible outcome. Contact us today for a confidential consultation.",
+    "url": "/contact/",
+    "button_text": "Schedule a Free Consultation"
+  }
+}

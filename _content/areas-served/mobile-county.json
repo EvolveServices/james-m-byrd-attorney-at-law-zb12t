@@ -1,0 +1,74 @@
+{
+  "slug": "mobile-county",
+  "template": "areas-served",
+  "output": "/areas-served/mobile-county/index.html",
+  "meta": {
+    "title": "Mobile County Criminal Defense Attorney",
+    "description": "James M. Byrd has defended clients in Mobile County since 1979. Experienced criminal defense in Mobile County Circuit Court, District Court, and municipal courts. Call 251-438-2973."
+  },
+  "hero": {
+    "title": "Criminal Defense Attorney in Mobile County",
+    "subtitle": "James M. Byrd has practiced criminal defense in Mobile County since October 1979. From misdemeanor charges in municipal court to felony trials in the Circuit Court, he brings more than 45 years of local courtroom experience to your defense.",
+    "county_name": "Mobile County"
+  },
+  "content": {
+    "intro_heading": "Defending Clients in Mobile County for Over 45 Years",
+    "intro_body": "<p>Mobile County is the heart of James M. Byrd's practice. He was born in Mobile, began his criminal defense career here in 1979, and has spent every year since representing individuals charged with crimes ranging from minor misdemeanors to serious felonies. That four-decade commitment to this community means he knows Mobile County's courts, its judges, and its prosecutors as well as anyone.</p><p>If you or someone you love has been charged with a crime in Mobile County, time matters. Early intervention by an experienced attorney can make a real difference in the outcome of your case. Contact Mr. Byrd today to begin building your defense.</p>",
+    "services_intro": "James M. Byrd handles the full range of criminal charges that arise in Mobile County courts, including:",
+    "why_heading": "Why Mobile County Residents Choose James M. Byrd",
+    "why_body": "<p>When you face criminal charges, you need an attorney who knows the local legal landscape. Mr. Byrd has spent more than 45 years appearing in Mobile County courtrooms. He is familiar with the judges, the prosecutors, and the procedures in each Mobile County court. That local knowledge translates into strategic advantages for his clients.</p><p>Mr. Byrd comes from a family of criminal defense lawyers and has dedicated his entire career to this area of law. He approaches every case personally, never treating a client as just another file number. He understands what is at stake and fights to protect your rights at every stage of the process.</p>"
+  },
+  "courts": [
+    {
+      "icon": "landmark",
+      "name": "Mobile County Circuit Court (13th Judicial Circuit)",
+      "description": "Alabama's busiest circuit court, handling all felony criminal cases in Mobile County, including murder, assault, drug trafficking, and white collar crimes."
+    },
+    {
+      "icon": "scale",
+      "name": "Mobile County District Court",
+      "description": "Handles misdemeanors, traffic violations, preliminary hearings for felony cases, and small claims matters in Mobile County."
+    },
+    {
+      "icon": "building-2",
+      "name": "City of Mobile Municipal Court",
+      "description": "Adjudicates violations of City of Mobile ordinances and lower-level misdemeanor offenses within the city limits."
+    },
+    {
+      "icon": "building-2",
+      "name": "Prichard and Saraland Municipal Courts",
+      "description": "Municipal courts for the cities of Prichard and Saraland handle city ordinance violations and misdemeanor traffic matters within their jurisdictions."
+    }
+  ],
+  "services": [
+    "Criminal Law (Felonies and Misdemeanors)",
+    "DUI / DWI Defense",
+    "Drug Possession and Trafficking",
+    "Assault and Violent Crimes",
+    "Theft and Property Crimes",
+    "Federal White Collar Crime",
+    "Probation and Parole Violations",
+    "Expungements"
+  ],
+  "all_areas": [
+    { "name": "Mobile County", "link": "/areas-served/mobile-county/" },
+    { "name": "Baldwin County", "link": "/areas-served/baldwin-county/" },
+    { "name": "Clarke County", "link": "/areas-served/clarke-county/" },
+    { "name": "Choctaw County", "link": "/areas-served/choctaw-county/" },
+    { "name": "Escambia County", "link": "/areas-served/escambia-county/" },
+    { "name": "Marengo County", "link": "/areas-served/marengo-county/" },
+    { "name": "Monroe County", "link": "/areas-served/monroe-county/" },
+    { "name": "Washington County", "link": "/areas-served/washington-county/" }
+  ],
+  "map": {
+    "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110037.82064694614!2d-88.19128!3d30.6954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889a4d5b4af04629%3A0x48cf59b33c9f0c8e!2sMobile%20County%2C%20AL!5e0!3m2!1sen!2sus!4v1710000000000",
+    "heading": "Mobile County, Alabama",
+    "subheading": "Serving clients throughout Mobile County and the greater Mobile metropolitan area."
+  },
+  "cta": {
+    "heading": "Facing Charges in Mobile County? Call Now.",
+    "text": "Do not wait to seek legal representation. The sooner you contact James M. Byrd, the more options you may have in your defense. Schedule a confidential consultation today.",
+    "url": "/contact/",
+    "button_text": "Schedule a Free Consultation"
+  }
+}

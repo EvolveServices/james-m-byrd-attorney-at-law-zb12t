@@ -1,0 +1,103 @@
+{
+  "slug": "index",
+  "template": "areas-served-listing",
+  "output": "/areas-served/index.html",
+  "meta": {
+    "title": "Areas Served",
+    "description": "James M. Byrd represents clients throughout Southwest Alabama and federal courts, including Baldwin, Mobile, Escambia, and seven other counties, plus the Southern District of Alabama and more."
+  },
+  "hero": {
+    "label": "Service Area",
+    "title": "Areas We Serve",
+    "subtitle": "James M. Byrd provides experienced criminal defense representation across Southwest Alabama's state courts and in federal courts throughout the region. If you are facing charges in any of these jurisdictions, call today for a consultation."
+  },
+  "intro": {
+    "text": "James M. Byrd has defended clients across Southwest Alabama and federal courts since 1979."
+  },
+  "cards": {
+    "heading": "Alabama Counties We Serve",
+    "subheading": "Mr. Byrd is licensed to practice in all Alabama state courts and appears regularly in each of the following counties."
+  },
+  "items": [
+    {
+      "title": "Mobile County",
+      "badge": "Primary Office",
+      "image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/male-lawyer-working-with-contract-papers-wooden-gavel-tabel-courtroom-justice-law-attorney-court-judge-concept.jpg",
+      "image_alt": "Mobile County criminal defense attorney",
+      "description": "James M. Byrd has been based in Mobile since 1979 and practices regularly in the Mobile County Circuit Court, District Court, and municipal courts throughout the county.",
+      "services": ["Criminal Defense", "DUI / DWI", "Federal White Collar Crime"],
+      "link": "/areas-served/mobile-county/",
+      "delay": "0s"
+    },
+    {
+      "title": "Baldwin County",
+      "badge": "State Court",
+      "image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background-concepts-law.jpg",
+      "image_alt": "Baldwin County criminal defense attorney",
+      "description": "Serving clients in the Baldwin County Circuit Court (28th Judicial Circuit), Baldwin County District Court, and the Bay Minette Municipal Court.",
+      "services": ["Criminal Defense", "DUI / DWI", "Drug Offenses"],
+      "link": "/areas-served/baldwin-county/",
+      "delay": "0.05s"
+    },
+    {
+      "title": "Clarke County",
+      "badge": "State Court",
+      "image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/attorney-balance-advocate-antique-beautiful-blind-blindfold.jpg",
+      "image_alt": "Clarke County criminal defense attorney",
+      "description": "Representing clients in the Clarke County Circuit Court (1st Judicial Circuit), Clarke County District Court, and the Grove Hill Municipal Court.",
+      "services": ["Criminal Defense", "DUI / DWI", "Felony Defense"],
+      "link": "/areas-served/clark-county/",
+      "delay": "0.1s"
+    },
+    {
+      "title": "Choctaw County",
+      "badge": "State Court",
+      "image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/male-lawyer-working-with-contract-papers-wooden-gavel-tabel-courtroom-justice-law-attorney-court-judge-concept.jpg",
+      "image_alt": "Choctaw County criminal defense attorney",
+      "description": "Handling cases in the Choctaw County Circuit Court (1st Judicial Circuit), Choctaw County District Court, and the Butler Municipal Court.",
+      "services": ["Criminal Defense", "DUI / DWI", "Misdemeanors"],
+      "link": "/areas-served/choctaw-county/",
+      "delay": "0.15s"
+    },
+    {
+      "title": "Escambia County",
+      "badge": "State Court",
+      "image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background-concepts-law.jpg",
+      "image_alt": "Escambia County criminal defense attorney",
+      "description": "Defending clients in the Escambia County Circuit Court (21st Judicial Circuit), Escambia County District Court, and the Brewton Municipal Court.",
+      "services": ["Criminal Defense", "DUI / DWI", "Violent Crimes"],
+      "link": "/areas-served/escambia-county/",
+      "delay": "0.2s"
+    },
+    {
+      "title": "Marengo County",
+      "badge": "State Court",
+      "image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/attorney-balance-advocate-antique-beautiful-blind-blindfold.jpg",
+      "image_alt": "Marengo County criminal defense attorney",
+      "description": "Appearing in the Marengo County Circuit Court (4th Judicial Circuit), Marengo County District Court, and the Linden Municipal Court.",
+      "services": ["Criminal Defense", "DUI / DWI", "Drug Offenses"],
+      "link": "/areas-served/marengo-county/",
+      "delay": "0.25s"
+    },
+    {
+      "title": "Monroe County",
+      "badge": "State Court",
+      "image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/male-lawyer-working-with-contract-papers-wooden-gavel-tabel-courtroom-justice-law-attorney-court-judge-concept.jpg",
+      "image_alt": "Monroe County criminal defense attorney",
+      "description": "Practicing in the Monroe County Circuit Court (4th Judicial Circuit), Monroe County District Court, and the Monroeville Municipal Court.",
+      "services": ["Criminal Defense", "DUI / DWI", "Felony Defense"],
+      "link": "/areas-served/monroe-county/",
+      "delay": "0.3s"
+    },
+    {
+      "title": "Washington County",
+      "badge": "State Court",
+      "image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background-concepts-law.jpg",
+      "image_alt": "Washington County criminal defense attorney",
+      "description": "Representing defendants in the Washington County Circuit Court (1st Judicial Circuit), Washington County District Court, and the Chatom Municipal Court.",
+      "services": ["Criminal Defense", "DUI / DWI", "Misdemeanors"],
+      "link": "/areas-served/washington-county/",
+      "delay": "0.35s"
+    }
+  ]
+}

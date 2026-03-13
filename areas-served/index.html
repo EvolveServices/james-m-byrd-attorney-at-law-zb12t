@@ -9,442 +9,306 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Areas Served | James M. Byrd, Attorney at Law</title>
   <meta name="description" content="James M. Byrd represents clients throughout Southwest Alabama and federal courts, including Baldwin, Mobile, Escambia, and seven other counties, plus the Southern District of Alabama and more." />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-
-  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- CSS -->
   <link rel="stylesheet" href="/css/base.css" />
   <link rel="stylesheet" href="/css/components.css" />
   <link rel="stylesheet" href="/css/layout.css" />
   <link rel="stylesheet" href="/css/animations.css" />
-  <link rel="stylesheet" href="/css/areas-served.css" />
+  <link rel="stylesheet" href="/css/templates/areas-served.css" />
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body>
 
-  <!-- Navbar -->
   <div data-include="navbar"></div>
 
-  <!-- ── Hero ── -->
-  <section class="areas-hero">
+  <!-- Hero -->
+  <section class="as-listing-hero">
+    <div class="as-listing-hero-overlay"></div>
     <div class="container">
-      <div class="areas-hero-content">
+      <div class="as-listing-hero-content">
         <span class="section-label">Service Area</span>
-        <h1 class="heading-xl">Areas We Serve</h1>
-        <p>James M. Byrd provides experienced criminal defense representation across Southwest Alabama's state courts and in federal courts throughout the region. If you are facing charges in any of these jurisdictions, call today for a consultation.</p>
-        <a href="/contact/" class="btn btn-secondary btn-lg">Request a Free Consultation</a>
+        <h1>Areas We Serve</h1>
+        <p>James M. Byrd provides experienced criminal defense representation across Southwest Alabama&#39;s state courts and in federal courts throughout the region. If you are facing charges in any of these jurisdictions, call today for a consultation.</p>
+        <a href="/contact/" class="btn btn-secondary btn-lg">Schedule a Consultation</a>
       </div>
     </div>
   </section>
 
-  <!-- ── Intro ── -->
-  <section class="areas-intro section">
+  <!-- Intro Strip -->
+  <div class="as-listing-intro-strip">
     <div class="container">
-      <div class="areas-intro-grid">
-        <div class="areas-intro-text reveal">
-          <span class="section-label">40+ Years of Local Expertise</span>
-          <h2 class="heading-lg" style="margin-bottom:1rem;">Defending Clients Across Southwest Alabama</h2>
+      <div class="as-listing-intro-inner">
+        <p>James M. Byrd has defended clients across Southwest Alabama and federal courts since 1979. Call <a href="tel:+12514382973" style="color:#fff;font-weight:700;text-decoration:underline;">251-438-2973</a> today.</p>
+        <a href="/contact/" class="btn btn-white" style="flex-shrink:0;">Free Case Review</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- State / County Cards Grid -->
+  <section class="section as-listing-cards-section">
+    <div class="container">
+      <div class="as-listing-section-header reveal">
+        <h2>Alabama Counties We Serve</h2>
+        <div class="divider-center"></div>
+        <p>Mr. Byrd is licensed to practice in all Alabama state courts and appears regularly in each of the following counties.</p>
+      </div>
+      <div class="as-listing-grid">
+        
+        <article class="as-listing-card reveal" data-delay="0s">
+          <div class="as-listing-card-img-wrap">
+            <img src="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/male-lawyer-working-with-contract-papers-wooden-gavel-tabel-courtroom-justice-law-attorney-court-judge-concept.jpg" alt="Mobile County criminal defense attorney" width="480" height="260" loading="lazy" />
+            <span class="as-listing-card-badge">Primary Office</span>
+          </div>
+          <div class="as-listing-card-body">
+            <div class="as-listing-card-header">
+              <div class="as-listing-card-icon">
+                <i data-lucide="map-pin" style="width:18px;height:18px;"></i>
+              </div>
+              <h3>Mobile County</h3>
+            </div>
+            <p>James M. Byrd has been based in Mobile since 1979 and practices regularly in the Mobile County Circuit Court, District Court, and municipal courts throughout the county.</p>
+            <ul class="as-listing-card-services">
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Criminal Defense</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>DUI / DWI</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Federal White Collar Crime</span></li>
+              
+            </ul>
+            <a href="/areas-served/mobile-county/" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        
+        <article class="as-listing-card reveal" data-delay="0.05s">
+          <div class="as-listing-card-img-wrap">
+            <img src="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background-concepts-law.jpg" alt="Baldwin County criminal defense attorney" width="480" height="260" loading="lazy" />
+            <span class="as-listing-card-badge">State Court</span>
+          </div>
+          <div class="as-listing-card-body">
+            <div class="as-listing-card-header">
+              <div class="as-listing-card-icon">
+                <i data-lucide="map-pin" style="width:18px;height:18px;"></i>
+              </div>
+              <h3>Baldwin County</h3>
+            </div>
+            <p>Serving clients in the Baldwin County Circuit Court (28th Judicial Circuit), Baldwin County District Court, and the Bay Minette Municipal Court.</p>
+            <ul class="as-listing-card-services">
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Criminal Defense</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>DUI / DWI</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Drug Offenses</span></li>
+              
+            </ul>
+            <a href="/areas-served/baldwin-county/" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        
+        <article class="as-listing-card reveal" data-delay="0.1s">
+          <div class="as-listing-card-img-wrap">
+            <img src="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/attorney-balance-advocate-antique-beautiful-blind-blindfold.jpg" alt="Clarke County criminal defense attorney" width="480" height="260" loading="lazy" />
+            <span class="as-listing-card-badge">State Court</span>
+          </div>
+          <div class="as-listing-card-body">
+            <div class="as-listing-card-header">
+              <div class="as-listing-card-icon">
+                <i data-lucide="map-pin" style="width:18px;height:18px;"></i>
+              </div>
+              <h3>Clarke County</h3>
+            </div>
+            <p>Representing clients in the Clarke County Circuit Court (1st Judicial Circuit), Clarke County District Court, and the Grove Hill Municipal Court.</p>
+            <ul class="as-listing-card-services">
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Criminal Defense</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>DUI / DWI</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Felony Defense</span></li>
+              
+            </ul>
+            <a href="/areas-served/clark-county/" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        
+        <article class="as-listing-card reveal" data-delay="0.15s">
+          <div class="as-listing-card-img-wrap">
+            <img src="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/male-lawyer-working-with-contract-papers-wooden-gavel-tabel-courtroom-justice-law-attorney-court-judge-concept.jpg" alt="Choctaw County criminal defense attorney" width="480" height="260" loading="lazy" />
+            <span class="as-listing-card-badge">State Court</span>
+          </div>
+          <div class="as-listing-card-body">
+            <div class="as-listing-card-header">
+              <div class="as-listing-card-icon">
+                <i data-lucide="map-pin" style="width:18px;height:18px;"></i>
+              </div>
+              <h3>Choctaw County</h3>
+            </div>
+            <p>Handling cases in the Choctaw County Circuit Court (1st Judicial Circuit), Choctaw County District Court, and the Butler Municipal Court.</p>
+            <ul class="as-listing-card-services">
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Criminal Defense</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>DUI / DWI</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Misdemeanors</span></li>
+              
+            </ul>
+            <a href="/areas-served/choctaw-county/" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        
+        <article class="as-listing-card reveal" data-delay="0.2s">
+          <div class="as-listing-card-img-wrap">
+            <img src="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background-concepts-law.jpg" alt="Escambia County criminal defense attorney" width="480" height="260" loading="lazy" />
+            <span class="as-listing-card-badge">State Court</span>
+          </div>
+          <div class="as-listing-card-body">
+            <div class="as-listing-card-header">
+              <div class="as-listing-card-icon">
+                <i data-lucide="map-pin" style="width:18px;height:18px;"></i>
+              </div>
+              <h3>Escambia County</h3>
+            </div>
+            <p>Defending clients in the Escambia County Circuit Court (21st Judicial Circuit), Escambia County District Court, and the Brewton Municipal Court.</p>
+            <ul class="as-listing-card-services">
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Criminal Defense</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>DUI / DWI</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Violent Crimes</span></li>
+              
+            </ul>
+            <a href="/areas-served/escambia-county/" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        
+        <article class="as-listing-card reveal" data-delay="0.25s">
+          <div class="as-listing-card-img-wrap">
+            <img src="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/attorney-balance-advocate-antique-beautiful-blind-blindfold.jpg" alt="Marengo County criminal defense attorney" width="480" height="260" loading="lazy" />
+            <span class="as-listing-card-badge">State Court</span>
+          </div>
+          <div class="as-listing-card-body">
+            <div class="as-listing-card-header">
+              <div class="as-listing-card-icon">
+                <i data-lucide="map-pin" style="width:18px;height:18px;"></i>
+              </div>
+              <h3>Marengo County</h3>
+            </div>
+            <p>Appearing in the Marengo County Circuit Court (4th Judicial Circuit), Marengo County District Court, and the Linden Municipal Court.</p>
+            <ul class="as-listing-card-services">
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Criminal Defense</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>DUI / DWI</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Drug Offenses</span></li>
+              
+            </ul>
+            <a href="/areas-served/marengo-county/" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        
+        <article class="as-listing-card reveal" data-delay="0.3s">
+          <div class="as-listing-card-img-wrap">
+            <img src="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/male-lawyer-working-with-contract-papers-wooden-gavel-tabel-courtroom-justice-law-attorney-court-judge-concept.jpg" alt="Monroe County criminal defense attorney" width="480" height="260" loading="lazy" />
+            <span class="as-listing-card-badge">State Court</span>
+          </div>
+          <div class="as-listing-card-body">
+            <div class="as-listing-card-header">
+              <div class="as-listing-card-icon">
+                <i data-lucide="map-pin" style="width:18px;height:18px;"></i>
+              </div>
+              <h3>Monroe County</h3>
+            </div>
+            <p>Practicing in the Monroe County Circuit Court (4th Judicial Circuit), Monroe County District Court, and the Monroeville Municipal Court.</p>
+            <ul class="as-listing-card-services">
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Criminal Defense</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>DUI / DWI</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Felony Defense</span></li>
+              
+            </ul>
+            <a href="/areas-served/monroe-county/" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        
+        <article class="as-listing-card reveal" data-delay="0.35s">
+          <div class="as-listing-card-img-wrap">
+            <img src="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background-concepts-law.jpg" alt="Washington County criminal defense attorney" width="480" height="260" loading="lazy" />
+            <span class="as-listing-card-badge">State Court</span>
+          </div>
+          <div class="as-listing-card-body">
+            <div class="as-listing-card-header">
+              <div class="as-listing-card-icon">
+                <i data-lucide="map-pin" style="width:18px;height:18px;"></i>
+              </div>
+              <h3>Washington County</h3>
+            </div>
+            <p>Representing defendants in the Washington County Circuit Court (1st Judicial Circuit), Washington County District Court, and the Chatom Municipal Court.</p>
+            <ul class="as-listing-card-services">
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Criminal Defense</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>DUI / DWI</span></li>
+              
+              <li><i data-lucide="check" style="width:13px;height:13px;"></i><span>Misdemeanors</span></li>
+              
+            </ul>
+            <a href="/areas-served/washington-county/" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Federal Courts Section -->
+  <section class="section as-listing-federal">
+    <div class="container">
+      <div class="as-listing-federal-inner reveal">
+        <div class="as-listing-federal-text">
+          <span class="section-label">Federal Practice</span>
+          <h2>Federal Court Representation</h2>
           <div class="divider"></div>
-          <p>James M. Byrd has built his entire legal career in this region. He was born in Mobile, practiced here since 1979, and has appeared in courts across all eight Southwest Alabama counties on a regular basis. That depth of local knowledge means he understands the judges, prosecutors, and procedures in each jurisdiction.</p>
-          <p>Whether you are charged in a small county circuit court or facing federal prosecution in the Southern District of Alabama, Mr. Byrd brings the same dedication and decades of courtroom experience to your defense.</p>
+          <p>Beyond state courts, James M. Byrd is licensed to practice in federal courts serving Alabama and beyond, providing comprehensive criminal defense at every level of the federal judicial system.</p>
+          <ul class="as-listing-federal-courts">
+            <li><i data-lucide="landmark" style="width:16px;height:16px;"></i><span>Federal District Court for the Southern District of Alabama</span></li>
+            <li><i data-lucide="landmark" style="width:16px;height:16px;"></i><span>Eleventh Circuit Court of Appeals</span></li>
+            <li><i data-lucide="landmark" style="width:16px;height:16px;"></i><span>The United States Supreme Court</span></li>
+          </ul>
+          <a href="/practice-areas/federal-white-collar-crime/" class="btn btn-primary">Federal Defense Information</a>
         </div>
-        <div class="areas-stat-grid reveal" data-delay="0.2s">
-          <div class="areas-stat-card">
-            <div class="areas-stat-number">45+</div>
-            <div class="areas-stat-label">Years in Practice</div>
-          </div>
-          <div class="areas-stat-card">
-            <div class="areas-stat-number">8</div>
-            <div class="areas-stat-label">Alabama Counties</div>
-          </div>
-          <div class="areas-stat-card">
-            <div class="areas-stat-number">3</div>
-            <div class="areas-stat-label">Federal Jurisdictions</div>
-          </div>
-          <div class="areas-stat-card">
-            <div class="areas-stat-number">1979</div>
-            <div class="areas-stat-label">Year Founded</div>
-          </div>
+        <div class="as-listing-federal-img">
+          <img
+            src="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background-concepts-law.jpg"
+            alt="Federal courthouse representing federal criminal defense"
+            width="560" height="380"
+          />
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── State Courts by County ── -->
-  <section class="state-courts section">
+  <!-- Bottom CTA -->
+  <section class="as-listing-cta">
     <div class="container">
-      <div class="state-courts-intro reveal">
-        <span class="section-label">State Jurisdiction</span>
-        <h2 class="heading-lg" style="margin-bottom:1rem;">Alabama County Courts</h2>
-        <div class="divider-center"></div>
-        <p>Mr. Byrd is licensed to practice in all Alabama state courts. Below are the eight counties where he regularly appears, along with the courts within each county where your case may be heard.</p>
-      </div>
-
-      <div class="counties-grid">
-
-        <!-- Baldwin County -->
-        <div class="county-card reveal" data-delay="0s">
-          <div class="county-card-header">
-            <span class="county-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-              </svg>
-            </span>
-            <span class="county-name">Baldwin County</span>
-          </div>
-          <ul class="county-courts-list">
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Baldwin County Circuit Court (28th Judicial Circuit)</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Baldwin County District Court</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Bay Minette Municipal Court</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Choctaw County -->
-        <div class="county-card reveal" data-delay="0.05s">
-          <div class="county-card-header">
-            <span class="county-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-              </svg>
-            </span>
-            <span class="county-name">Choctaw County</span>
-          </div>
-          <ul class="county-courts-list">
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Choctaw County Circuit Court (1st Judicial Circuit)</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Choctaw County District Court</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Butler Municipal Court</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Clark County -->
-        <div class="county-card reveal" data-delay="0.1s">
-          <div class="county-card-header">
-            <span class="county-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-              </svg>
-            </span>
-            <span class="county-name">Clarke County</span>
-          </div>
-          <ul class="county-courts-list">
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Clarke County Circuit Court (1st Judicial Circuit)</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Clarke County District Court</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Grove Hill Municipal Court</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Escambia County -->
-        <div class="county-card reveal" data-delay="0.15s">
-          <div class="county-card-header">
-            <span class="county-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-              </svg>
-            </span>
-            <span class="county-name">Escambia County</span>
-          </div>
-          <ul class="county-courts-list">
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Escambia County Circuit Court (21st Judicial Circuit)</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Escambia County District Court</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Brewton Municipal Court</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Marengo County -->
-        <div class="county-card reveal" data-delay="0.2s">
-          <div class="county-card-header">
-            <span class="county-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-              </svg>
-            </span>
-            <span class="county-name">Marengo County</span>
-          </div>
-          <ul class="county-courts-list">
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Marengo County Circuit Court (4th Judicial Circuit)</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Marengo County District Court</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Linden Municipal Court</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Mobile County -->
-        <div class="county-card reveal" data-delay="0.25s">
-          <div class="county-card-header">
-            <span class="county-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-              </svg>
-            </span>
-            <span class="county-name">Mobile County</span>
-          </div>
-          <ul class="county-courts-list">
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Mobile County Circuit Court (13th Judicial Circuit)</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Mobile County District Court</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>City of Mobile Municipal Court</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Prichard and Saraland Municipal Courts</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Monroe County -->
-        <div class="county-card reveal" data-delay="0.3s">
-          <div class="county-card-header">
-            <span class="county-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-              </svg>
-            </span>
-            <span class="county-name">Monroe County</span>
-          </div>
-          <ul class="county-courts-list">
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Monroe County Circuit Court (4th Judicial Circuit)</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Monroe County District Court</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Monroeville Municipal Court</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Washington County -->
-        <div class="county-card reveal" data-delay="0.35s">
-          <div class="county-card-header">
-            <span class="county-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-              </svg>
-            </span>
-            <span class="county-name">Washington County</span>
-          </div>
-          <ul class="county-courts-list">
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Washington County Circuit Court (1st Judicial Circuit)</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Washington County District Court</span>
-            </li>
-            <li class="county-court-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <span>Chatom Municipal Court</span>
-            </li>
-          </ul>
-        </div>
-
-      </div><!-- /.counties-grid -->
-    </div>
-  </section>
-
-  <!-- ── Map ── -->
-  <section class="areas-map section">
-    <div class="container">
-      <div class="map-section-intro reveal">
-        <span class="section-label">Location</span>
-        <h2 class="heading-lg" style="margin-bottom:1rem;">Office Location</h2>
-        <div class="divider-center"></div>
-        <p>Conveniently located in downtown Mobile at 456 Conti Street, James M. Byrd's office is accessible from anywhere in Southwest Alabama.</p>
-      </div>
-      <div class="map-container reveal" data-delay="0.15s">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3373.2!2d-88.0498!3d30.6943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889a4d5ae8a48e3b%3A0x1!2s456+Conti+St%2C+Mobile%2C+AL+36602!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus"
-          title="James M. Byrd office location at 456 Conti St, Mobile, AL"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          allowfullscreen>
-        </iframe>
+      <h2 class="reveal">Serving Mobile and Surrounding Counties Since 1979</h2>
+      <p class="reveal" data-delay="0.1s">No matter where in our service area you are located, James M. Byrd will come to your defense. Contact us today for a confidential consultation.</p>
+      <div class="reveal" data-delay="0.2s" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="/contact/" class="btn btn-white btn-lg">Schedule a Free Consultation</a>
+        <a href="tel:+12514382973" class="btn btn-outline-white btn-lg">Call 251-438-2973</a>
       </div>
     </div>
   </section>
 
-  <!-- ── Federal Courts ── -->
-  <section class="federal-courts section">
-    <div class="container">
-      <div class="federal-courts-intro reveal">
-        <span class="section-label" style="color:var(--color-secondary);">Federal Jurisdiction</span>
-        <h2 class="heading-lg" style="margin-bottom:1rem;">Federal Court Admissions</h2>
-        <div class="divider-center"></div>
-        <p>In addition to Alabama state courts, James M. Byrd is licensed to appear in federal courts at three levels of the federal judiciary, providing comprehensive representation for clients facing federal criminal charges.</p>
-      </div>
-
-      <div class="federal-courts-grid">
-
-        <!-- Southern District -->
-        <div class="federal-court-card reveal" data-delay="0s">
-          <div class="federal-court-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-            </svg>
-          </div>
-          <h3 class="federal-court-name">U.S. District Court, Southern District of Alabama</h3>
-          <p class="federal-court-desc">Federal trial court handling criminal charges, including white collar crime, drug offenses, firearms violations, and other federal felonies prosecuted in Mobile and the surrounding region.</p>
-        </div>
-
-        <!-- Eleventh Circuit -->
-        <div class="federal-court-card reveal" data-delay="0.1s">
-          <div class="federal-court-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
-            </svg>
-          </div>
-          <h3 class="federal-court-name">Eleventh Circuit Court of Appeals</h3>
-          <p class="federal-court-desc">The federal appellate court with jurisdiction over Alabama, Georgia, and Florida. Mr. Byrd is admitted to argue appeals of federal criminal convictions before this court in Atlanta.</p>
-        </div>
-
-        <!-- US Supreme Court -->
-        <div class="federal-court-card reveal" data-delay="0.2s">
-          <div class="federal-court-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.562.562 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
-            </svg>
-          </div>
-          <h3 class="federal-court-name">The United States Supreme Court</h3>
-          <p class="federal-court-desc">Admission to practice before the highest court in the nation reflects the depth of Mr. Byrd's legal credentials and his commitment to pursuing every available avenue of relief for his clients.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Why Mr. Byrd ── -->
-  <section class="areas-why section">
-    <div class="container">
-      <div class="areas-why-grid">
-        <div class="areas-why-text reveal">
-          <span class="section-label">Why Choose Mr. Byrd</span>
-          <h2 class="heading-lg">Local Knowledge. Proven Results.</h2>
-          <div class="divider"></div>
-          <p>When you are charged with a crime, the attorney you choose makes all the difference. James M. Byrd has spent his entire career in Southwest Alabama and has developed relationships with the courts, judges, and prosecutors in every jurisdiction he serves.</p>
-          <p>That familiarity translates to a strategic advantage for every client. He knows how each court operates, what prosecutors in each county prioritize, and how to navigate the local legal landscape to build the strongest possible defense.</p>
-          <p>From a first DUI charge in a small county district court to a complex federal white collar prosecution, Mr. Byrd applies the same thorough preparation and aggressive advocacy that has defined his practice since 1979.</p>
-          <a href="/contact/" class="btn btn-primary" style="margin-top:0.5rem;">Speak With Mr. Byrd</a>
-        </div>
-        <div class="areas-why-features reveal" data-delay="0.2s">
-          <div class="areas-why-feature">
-            <span class="areas-why-feature-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
-            </span>
-            <div class="areas-why-feature-body">
-              <h4>Born and Raised in Mobile</h4>
-              <p>Deep roots in the community give Mr. Byrd unique insight into how the local courts and legal system operate across the region.</p>
-            </div>
-          </div>
-          <div class="areas-why-feature">
-            <span class="areas-why-feature-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-            </span>
-            <div class="areas-why-feature-body">
-              <h4>In Practice Since 1979</h4>
-              <p>More than four decades of continuous criminal defense practice means Mr. Byrd has handled nearly every type of charge in every court he serves.</p>
-            </div>
-          </div>
-          <div class="areas-why-feature">
-            <span class="areas-why-feature-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
-            </span>
-            <div class="areas-why-feature-body">
-              <h4>State and Federal Representation</h4>
-              <p>Admitted in Alabama state courts and three federal jurisdictions, Mr. Byrd provides seamless coverage no matter where your case is filed.</p>
-            </div>
-          </div>
-          <div class="areas-why-feature">
-            <span class="areas-why-feature-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"/></svg>
-            </span>
-            <div class="areas-why-feature-body">
-              <h4>Criminal Defense Family Legacy</h4>
-              <p>Coming from a family of criminal defense lawyers, Mr. Byrd has been immersed in the profession his entire life, bringing a generational commitment to defending the accused.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── CTA ── -->
-  <section class="areas-cta section">
-    <div class="container">
-      <h2 class="heading-lg">Facing Criminal Charges in Southwest Alabama?</h2>
-      <p>Do not wait. The sooner you retain experienced legal counsel, the stronger your defense can be. Contact James M. Byrd today to discuss your case in a confidential consultation.</p>
-      <div class="areas-cta-buttons">
-        <a href="/contact/" class="btn btn-white btn-lg">Request a Consultation</a>
-        <a href="tel:+12514382973" class="btn btn-outline-white btn-lg">Call (251) 438-2973</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
   <div data-include="footer"></div>
 
-  <!-- Scripts -->
-  <script src="/_includes/loader.js"></script>
+  <script>lucide.createIcons();</script>
+  <script src="/js/loader.js"></script>
   <script src="/js/animations.js"></script>
 
 </body>

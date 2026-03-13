@@ -1,0 +1,74 @@
+{
+  "slug": "choctaw-county",
+  "template": "areas-served",
+  "output": "/areas-served/choctaw-county/index.html",
+  "meta": {
+    "title": "Choctaw County Criminal Defense Attorney | James M. Byrd",
+    "description": "James M. Byrd defends clients charged with crimes in Choctaw County, Alabama. Experienced representation in the 1st Judicial Circuit, Choctaw County District Court, and Butler Municipal Court. Call 251-438-2973."
+  },
+  "hero": {
+    "title": "Criminal Defense Attorney in Choctaw County",
+    "subtitle": "James M. Byrd provides experienced criminal defense representation throughout Choctaw County, Alabama. With over 45 years of practice across Southwest Alabama, he is ready to defend your rights in every Choctaw County courtroom.",
+    "county_name": "Choctaw County"
+  },
+  "content": {
+    "intro_heading": "Committed Criminal Defense Representation in Choctaw County",
+    "intro_body": "<p>Choctaw County is one of Alabama's more rural counties, situated along the Mississippi border in the southwestern part of the state. Its communities are tight-knit, and a criminal charge in Butler, Lisman, or anywhere in the county can carry consequences that reach far beyond the courtroom, affecting your job, your housing, your family, and your standing in the community.</p><p>James M. Byrd has been representing defendants in the 1st Judicial Circuit, which encompasses Choctaw County, for decades. He understands the pace and culture of small-county criminal courts in Alabama and knows how to navigate the local legal system to your advantage. Whether you are facing a misdemeanor traffic offense or a serious felony charge, he prepares every case with the same thoroughness and commitment.</p><p>In rural counties like Choctaw, local knowledge matters enormously. Prosecutors and judges are familiar with each other, the community is small, and procedural missteps or unfamiliarity with local practice can cost a defendant dearly. Mr. Byrd brings the full weight of his experience in Southwest Alabama courts to every Choctaw County case, ensuring you receive representation that is both legally sound and locally informed.</p><p>From the moment charges are filed, the prosecution begins building its case. You need an attorney who is equally prepared to respond. Contact James M. Byrd immediately after an arrest or indictment to preserve your rights and begin developing your defense strategy.</p>",
+    "services_intro": "James M. Byrd represents Choctaw County clients facing a wide variety of criminal charges, including:",
+    "why_heading": "Why Choctaw County Defendants Choose James M. Byrd",
+    "why_body": "<p>Choctaw County defendants deserve the same quality of legal representation available in any major Alabama city. James M. Byrd ensures they get it. Since beginning his practice in 1979, he has made it a point to serve clients throughout the Southwest Alabama region, including the more rural counties where quality criminal defense attorneys can be harder to find.</p><p>Mr. Byrd's depth of experience is matched by his personal commitment to each client. He will not pass your case to a paralegal or a newly admitted associate. You work with him directly, and he handles your matter from intake through resolution. That personal relationship means he understands your goals, your circumstances, and what a favorable outcome looks like for you specifically.</p><p>He has extensive experience litigating suppression motions, challenging eyewitness identifications, cross-examining law enforcement witnesses, and negotiating with district attorneys across Southwest Alabama. When negotiations fail to produce an acceptable outcome, he is fully prepared to take your case to trial and present your defense to a Choctaw County jury.</p><p>If you or a family member has been arrested or charged with a crime in Choctaw County, do not delay. Contact the Law Office of James M. Byrd for a confidential consultation and learn what your legal options are.</p>"
+  },
+  "courts": [
+    {
+      "icon": "landmark",
+      "name": "Choctaw County Circuit Court (1st Judicial Circuit)",
+      "description": "The 1st Judicial Circuit handles all felony criminal cases in Choctaw County, including serious drug offenses, violent crimes, property felonies, and aggravated DUI charges."
+    },
+    {
+      "icon": "scale",
+      "name": "Choctaw County District Court",
+      "description": "Handles misdemeanor criminal matters, traffic violations, and preliminary hearings for felonies before cases are bound over to Circuit Court."
+    },
+    {
+      "icon": "building-2",
+      "name": "Butler Municipal Court",
+      "description": "Butler is the county seat and its municipal court handles city ordinance violations and lower-level misdemeanor offenses occurring within Butler city limits."
+    },
+    {
+      "icon": "building-2",
+      "name": "Lisman Municipal Court",
+      "description": "Handles city ordinance violations and misdemeanor traffic matters for residents and visitors within the Lisman city limits."
+    }
+  ],
+  "services": [
+    "Criminal Law (Felonies and Misdemeanors)",
+    "DUI / DWI Defense",
+    "Drug Possession and Trafficking",
+    "Assault and Violent Crimes",
+    "Theft and Property Crimes",
+    "Federal White Collar Crime",
+    "Probation and Parole Violations",
+    "Expungements"
+  ],
+  "all_areas": [
+    { "name": "Mobile County", "link": "/areas-served/mobile-county/" },
+    { "name": "Baldwin County", "link": "/areas-served/baldwin-county/" },
+    { "name": "Clarke County", "link": "/areas-served/clark-county/" },
+    { "name": "Choctaw County", "link": "/areas-served/choctaw-county/" },
+    { "name": "Escambia County", "link": "/areas-served/escambia-county/" },
+    { "name": "Marengo County", "link": "/areas-served/marengo-county/" },
+    { "name": "Monroe County", "link": "/areas-served/monroe-county/" },
+    { "name": "Washington County", "link": "/areas-served/washington-county/" }
+  ],
+  "map": {
+    "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206628.5!2d-88.2731!3d32.0204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888ee1f7e9c4b3d1%3A0x2b4c9d6e3f5a7b8c!2sChoctaw%20County%2C%20AL!5e0!3m2!1sen!2sus!4v1710000000002",
+    "heading": "Choctaw County, Alabama",
+    "subheading": "Serving clients throughout Choctaw County, from Butler and Lisman to every community across this Southwest Alabama county."
+  },
+  "cta": {
+    "heading": "Facing Criminal Charges in Choctaw County?",
+    "text": "Do not navigate Choctaw County's court system on your own. James M. Byrd will protect your rights and pursue the best possible outcome for your case. Call or contact us online to schedule a confidential consultation.",
+    "url": "/contact/",
+    "button_text": "Schedule a Free Consultation"
+  }
+}
