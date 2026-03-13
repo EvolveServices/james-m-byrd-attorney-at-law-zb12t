@@ -12,12 +12,67 @@
         <li>
           <a href="/" class="nav-link">Home</a>
         </li>
-        <li>
-          <a href="/practice-areas/" class="nav-link">Practice Areas</a>
+
+        <!-- Practice Areas Megamenu -->
+        <li class="nav-item nav-item-mega">
+          <button class="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false">
+            Practice Areas
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </button>
+          <div class="megamenu" role="menu">
+            <div class="megamenu-inner">
+              <div class="megamenu-col">
+                <div class="megamenu-col-heading">Practice Areas</div>
+                <a href="/practice-areas/" class="megamenu-link" role="menuitem">All Practice Areas</a>
+                <a href="/practice-areas/criminal-law/" class="megamenu-link" role="menuitem">Criminal Law</a>
+                <a href="/practice-areas/dui-dwi/" class="megamenu-link" role="menuitem">DUI / DWI Defense</a>
+                <a href="/practice-areas/federal-white-collar-crime/" class="megamenu-link" role="menuitem">Federal &amp; White Collar Crime</a>
+              </div>
+              <div class="megamenu-col megamenu-col-cta">
+                <div class="megamenu-col-heading">Get Help Now</div>
+                <p class="megamenu-cta-text">Facing criminal charges in Alabama? Contact James M. Byrd for a free consultation today.</p>
+                <a href="/contact/" class="btn btn-primary btn-sm megamenu-cta-btn">Free Consultation</a>
+                <a href="tel:+12514382973" class="megamenu-phone">(251) 438-2973</a>
+              </div>
+            </div>
+          </div>
         </li>
-        <li>
-          <a href="/areas-served/" class="nav-link">Areas Served</a>
+
+        <!-- Areas Served Megamenu -->
+        <li class="nav-item nav-item-mega">
+          <button class="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false">
+            Areas Served
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </button>
+          <div class="megamenu" role="menu">
+            <div class="megamenu-inner">
+              <div class="megamenu-col">
+                <div class="megamenu-col-heading">Alabama Counties</div>
+                <a href="/areas-served/baldwin-county/" class="megamenu-link" role="menuitem">Baldwin County</a>
+                <a href="/areas-served/clark-county/" class="megamenu-link" role="menuitem">Clark County</a>
+                <a href="/areas-served/choctaw-county/" class="megamenu-link" role="menuitem">Choctaw County</a>
+                <a href="/areas-served/escambia-county/" class="megamenu-link" role="menuitem">Escambia County</a>
+              </div>
+              <div class="megamenu-col">
+                <div class="megamenu-col-heading">&nbsp;</div>
+                <a href="/areas-served/marengo-county/" class="megamenu-link" role="menuitem">Marengo County</a>
+                <a href="/areas-served/mobile-county/" class="megamenu-link" role="menuitem">Mobile County</a>
+                <a href="/areas-served/monroe-county/" class="megamenu-link" role="menuitem">Monroe County</a>
+                <a href="/areas-served/washington-county/" class="megamenu-link" role="menuitem">Washington County</a>
+              </div>
+              <div class="megamenu-col megamenu-col-cta">
+                <div class="megamenu-col-heading">Service Area</div>
+                <p class="megamenu-cta-text">James M. Byrd serves clients throughout Southwest Alabama and is licensed in Federal District Court for the Southern District of Alabama.</p>
+                <a href="/areas-served/" class="btn btn-primary btn-sm megamenu-cta-btn">View All Areas</a>
+              </div>
+            </div>
+          </div>
         </li>
+
         <!-- About Dropdown -->
         <li class="nav-item">
           <button class="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false">
@@ -63,9 +118,45 @@
 
 <!-- Mobile Menu Drawer -->
 <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+
   <a href="/" class="mobile-nav-link">Home</a>
-  <a href="/practice-areas/" class="mobile-nav-link">Practice Areas</a>
-  <a href="/areas-served/" class="mobile-nav-link">Areas Served</a>
+
+  <!-- Practice Areas Mobile Accordion -->
+  <div class="mobile-dropdown-section">
+    <button class="mobile-dropdown-toggle" id="mobilePracticeToggle" aria-expanded="false" aria-controls="mobilePracticeMenu">
+      Practice Areas
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+      </svg>
+    </button>
+    <div class="mobile-dropdown-menu" id="mobilePracticeMenu" role="menu">
+      <a href="/practice-areas/" class="mobile-dropdown-link" role="menuitem">All Practice Areas</a>
+      <a href="/practice-areas/criminal-law/" class="mobile-dropdown-link" role="menuitem">Criminal Law</a>
+      <a href="/practice-areas/dui-dwi/" class="mobile-dropdown-link" role="menuitem">DUI / DWI Defense</a>
+      <a href="/practice-areas/federal-white-collar-crime/" class="mobile-dropdown-link" role="menuitem">Federal &amp; White Collar Crime</a>
+    </div>
+  </div>
+
+  <!-- Areas Served Mobile Accordion -->
+  <div class="mobile-dropdown-section">
+    <button class="mobile-dropdown-toggle" id="mobileAreasToggle" aria-expanded="false" aria-controls="mobileAreasMenu">
+      Areas Served
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+      </svg>
+    </button>
+    <div class="mobile-dropdown-menu" id="mobileAreasMenu" role="menu">
+      <a href="/areas-served/" class="mobile-dropdown-link" role="menuitem">All Areas Served</a>
+      <a href="/areas-served/baldwin-county/" class="mobile-dropdown-link" role="menuitem">Baldwin County</a>
+      <a href="/areas-served/clark-county/" class="mobile-dropdown-link" role="menuitem">Clark County</a>
+      <a href="/areas-served/choctaw-county/" class="mobile-dropdown-link" role="menuitem">Choctaw County</a>
+      <a href="/areas-served/escambia-county/" class="mobile-dropdown-link" role="menuitem">Escambia County</a>
+      <a href="/areas-served/marengo-county/" class="mobile-dropdown-link" role="menuitem">Marengo County</a>
+      <a href="/areas-served/mobile-county/" class="mobile-dropdown-link" role="menuitem">Mobile County</a>
+      <a href="/areas-served/monroe-county/" class="mobile-dropdown-link" role="menuitem">Monroe County</a>
+      <a href="/areas-served/washington-county/" class="mobile-dropdown-link" role="menuitem">Washington County</a>
+    </div>
+  </div>
 
   <!-- About Mobile Dropdown -->
   <div class="mobile-dropdown-section">
@@ -126,16 +217,22 @@
     overlay.addEventListener('click', closeMenu);
   }
 
-  // Mobile About dropdown
-  var aboutToggle = document.getElementById('mobileAboutToggle');
-  var aboutMenu   = document.getElementById('mobileAboutMenu');
-  if (aboutToggle && aboutMenu) {
-    aboutToggle.addEventListener('click', function() {
-      var isOpen = aboutMenu.classList.toggle('open');
-      aboutToggle.classList.toggle('open', isOpen);
-      aboutToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    });
+  // Generic mobile accordion handler
+  function initMobileAccordion(toggleId, menuId) {
+    var btn = document.getElementById(toggleId);
+    var pane = document.getElementById(menuId);
+    if (btn && pane) {
+      btn.addEventListener('click', function() {
+        var isOpen = pane.classList.toggle('open');
+        btn.classList.toggle('open', isOpen);
+        btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+    }
   }
+
+  initMobileAccordion('mobilePracticeToggle', 'mobilePracticeMenu');
+  initMobileAccordion('mobileAreasToggle',    'mobileAreasMenu');
+  initMobileAccordion('mobileAboutToggle',    'mobileAboutMenu');
 
   // Close menu on nav link click
   var mobileLinks = document.querySelectorAll('.mobile-nav-link, .mobile-dropdown-link');
