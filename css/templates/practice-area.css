@@ -219,11 +219,11 @@
 
 /* ── Sidebar ── */
 .pa-detail-sidebar {
-  position: sticky;
-  top: calc(var(--header-height) + 2rem);
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  align-items: stretch;
 }
 
 .pa-sidebar-cta {
@@ -231,6 +231,8 @@
   border-radius: var(--radius-xl);
   padding: 1.75rem;
   border-top: 4px solid var(--color-secondary);
+  position: sticky;
+  top: calc(var(--navbar-height, 80px) + 1.5rem);
 }
 
 .pa-sidebar-cta h3 {
@@ -700,6 +702,10 @@
   }
 
   .pa-detail-sidebar {
+    position: static;
+  }
+
+  .pa-sidebar-cta {
     position: static;
     top: auto;
   }
