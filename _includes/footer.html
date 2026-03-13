@@ -83,7 +83,7 @@
     <!-- Footer Bottom Bar -->
     <div class="footer-bottom">
       <p class="footer-copyright">
-        &copy; <span id="footerYear"></span> James M. Byrd, Attorney at Law. All rights reserved.
+        &copy; <span id="copyright-year"></span> James M. Byrd, Attorney at Law. All rights reserved.
       </p>
       <nav aria-label="Footer legal links">
         <ul style="display:flex;gap:1.5rem;list-style:none;" role="list">
@@ -104,9 +104,4 @@
   </div>
 </footer>
 
-<script>
-(function() {
-  var el = document.getElementById('footerYear');
-  if (el) { el.textContent = new Date().getFullYear(); }
-})();
-</script>
+<script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
