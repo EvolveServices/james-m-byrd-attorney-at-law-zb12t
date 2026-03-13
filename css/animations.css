@@ -1,0 +1,115 @@
+/* === Animations: @keyframes, .reveal/.revealed, motion preferences === */
+
+/* ── Reveal: Scroll-triggered fade-up ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Fade In ── */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── Fade Up ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+/* ── Fade Down ── */
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-24px); }
+  to   { opacity: 1; transform: translateY(0);     }
+}
+
+/* ── Fade Left ── */
+@keyframes fadeLeft {
+  from { opacity: 0; transform: translateX(24px); }
+  to   { opacity: 1; transform: translateX(0);    }
+}
+
+/* ── Fade Right ── */
+@keyframes fadeRight {
+  from { opacity: 0; transform: translateX(-24px); }
+  to   { opacity: 1; transform: translateX(0);     }
+}
+
+/* ── Scale In ── */
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1);    }
+}
+
+/* ── Pulse ── */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50%       { transform: scale(1.04); }
+}
+
+/* ── Spin ── */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* ── Shimmer (loading skeleton) ── */
+@keyframes shimmer {
+  from { background-position: -200% center; }
+  to   { background-position:  200% center; }
+}
+
+/* ── Counter number highlight ── */
+@keyframes countPop {
+  0%   { transform: scale(1);    }
+  50%  { transform: scale(1.08); }
+  100% { transform: scale(1);    }
+}
+
+/* ── Animation Utility Classes ── */
+.animate-fade-in    { animation: fadeIn    0.6s ease both; }
+.animate-fade-up    { animation: fadeUp    0.6s ease both; }
+.animate-fade-down  { animation: fadeDown  0.6s ease both; }
+.animate-fade-left  { animation: fadeLeft  0.6s ease both; }
+.animate-fade-right { animation: fadeRight 0.6s ease both; }
+.animate-scale-in   { animation: scaleIn   0.6s ease both; }
+.animate-pulse      { animation: pulse     2s ease-in-out infinite; }
+.animate-spin       { animation: spin      1s linear infinite; }
+
+/* ── Delay Utilities ── */
+.delay-100 { animation-delay: 0.1s; transition-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; transition-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; transition-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; transition-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; transition-delay: 0.5s; }
+.delay-600 { animation-delay: 0.6s; transition-delay: 0.6s; }
+
+/* ── Reduced Motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .reveal.revealed {
+    opacity: 1;
+    transform: none;
+  }
+}

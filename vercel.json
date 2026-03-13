@@ -1,0 +1,25 @@
+{
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/practice-areas",
+      "destination": "/practice-areas/index.html"
+    },
+    {
+      "source": "/areas-served",
+      "destination": "/areas-served/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/about/blog",
+      "destination": "/about/blog/index.html"
+    },
+    {
+      "source": "/about/attorneys",
+      "destination": "/about/attorneys/index.html"
+    }
+  ]
+}

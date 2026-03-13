@@ -1,0 +1,279 @@
+/* === Practice Areas Page Styles === */
+
+/* ── Page Hero ── */
+.pa-hero {
+  background-color: var(--color-neutral-900);
+  background-image: linear-gradient(rgba(0,0,0,0.62), rgba(0,0,0,0.62)),
+    url('https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background-concepts-law.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: calc(var(--header-height) + 5rem) var(--section-padding-x) 5rem;
+  text-align: center;
+}
+
+.pa-hero h1 {
+  color: #fff;
+  font-size: clamp(2.25rem, 5vw, var(--font-size-5xl));
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  margin-bottom: 1rem;
+}
+
+.pa-hero p {
+  color: rgba(255,255,255,0.88);
+  font-size: var(--font-size-lg);
+  max-width: 680px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+}
+
+/* ── Intro Strip ── */
+.pa-intro {
+  background: var(--color-primary);
+  padding: 2.5rem var(--section-padding-x);
+}
+
+.pa-intro-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.pa-intro-inner p {
+  color: #fff;
+  font-size: var(--font-size-lg);
+  line-height: 1.6;
+  max-width: 740px;
+}
+
+/* ── Practice Area Sections ── */
+.pa-service-section {
+  padding: var(--section-padding-y) var(--section-padding-x);
+}
+
+.pa-service-section:nth-child(even) {
+  background: var(--color-bg-alt);
+}
+
+.pa-service-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.pa-service-section:nth-child(odd) .pa-service-grid {
+  direction: ltr;
+}
+
+.pa-service-section:nth-child(even) .pa-service-grid {
+  direction: rtl;
+}
+
+.pa-service-section:nth-child(even) .pa-service-content {
+  direction: ltr;
+}
+
+.pa-service-img-wrap {
+  direction: ltr;
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+}
+
+.pa-service-img-wrap img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+}
+
+.pa-service-img-badge {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  background: var(--color-secondary);
+  color: var(--color-neutral-900);
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+}
+
+.pa-service-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.pa-service-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-lg);
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.pa-service-content h2 {
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  color: var(--color-text);
+  line-height: 1.25;
+}
+
+.pa-service-content p {
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  font-size: var(--font-size-base);
+}
+
+.pa-service-bullets {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pa-service-bullets li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+}
+
+.pa-service-bullets li svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: var(--color-secondary);
+}
+
+.pa-service-cta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+/* ── Why Choose Us ── */
+.pa-why {
+  background: var(--color-neutral-900);
+  padding: var(--section-padding-y) var(--section-padding-x);
+  text-align: center;
+}
+
+.pa-why h2 {
+  color: #fff;
+  font-size: clamp(1.875rem, 4vw, var(--font-size-4xl));
+  margin-bottom: 0.5rem;
+}
+
+.pa-why .divider-center {
+  margin-bottom: 3rem;
+}
+
+.pa-why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.pa-why-card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius-xl);
+  padding: 2rem 1.5rem;
+  transition: background var(--transition-normal);
+}
+
+.pa-why-card:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.pa-why-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-full);
+  background: var(--color-secondary);
+  color: var(--color-neutral-900);
+  margin: 0 auto 1rem;
+}
+
+.pa-why-card h3 {
+  color: #fff;
+  font-size: var(--font-size-xl);
+  margin-bottom: 0.625rem;
+}
+
+.pa-why-card p {
+  color: rgba(255,255,255,0.72);
+  font-size: var(--font-size-sm);
+  line-height: 1.7;
+}
+
+/* ── Bottom CTA ── */
+.pa-bottom-cta {
+  background: var(--color-secondary);
+  padding: 4rem var(--section-padding-x);
+  text-align: center;
+}
+
+.pa-bottom-cta h2 {
+  color: var(--color-neutral-900);
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+  margin-bottom: 0.75rem;
+}
+
+.pa-bottom-cta p {
+  color: var(--color-neutral-800);
+  font-size: var(--font-size-lg);
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .pa-service-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .pa-service-section:nth-child(even) .pa-service-grid {
+    direction: ltr;
+  }
+
+  .pa-why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .pa-intro-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pa-service-img-wrap img {
+    height: 280px;
+  }
+
+  .pa-why-grid {
+    grid-template-columns: 1fr;
+  }
+}

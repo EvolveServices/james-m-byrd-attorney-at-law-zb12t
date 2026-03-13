@@ -1,0 +1,541 @@
+/* === Attorneys Page Styles === */
+
+/* ── Hero ── */
+.att-hero {
+  background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.65) 0%, rgba(0,30,40,0.75) 100%),
+    url('https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/judge-gavel-with-justice-lawyers-having-team-meeting-law-firm-background-concepts-law.jpg');
+  background-size: cover;
+  background-position: center top;
+  padding: calc(var(--header-height) + 5rem) var(--section-padding-x) 5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.att-hero .section-label {
+  color: var(--color-secondary);
+}
+
+.att-hero h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+.att-hero p {
+  font-size: var(--font-size-lg);
+  color: rgba(255,255,255,0.9);
+  max-width: 640px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+}
+
+/* ── Profile Section ── */
+.att-profile {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.att-profile-grid {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+/* Photo Column */
+.att-photo-col {
+  position: sticky;
+  top: calc(var(--header-height, 80px) + 2rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.att-photo-wrap {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+}
+
+.att-photo-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-xl);
+}
+
+.att-photo-badge {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  background: var(--color-secondary);
+  color: var(--color-neutral-900);
+  border-radius: var(--radius-lg);
+  padding: 0.6rem 1rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  box-shadow: var(--shadow-md);
+}
+
+.att-badge-year {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+}
+
+.att-badge-label {
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.att-contact-card {
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-md);
+  border-top: 3px solid var(--color-primary);
+}
+
+.att-contact-card h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 1rem;
+}
+
+.att-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.att-contact-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+.att-contact-list li i {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.att-contact-list a {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.att-contact-list a:hover {
+  color: var(--color-primary-dark);
+}
+
+/* Bio Column */
+.att-bio-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.att-bio-subtitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-muted);
+  margin-top: 0.25rem;
+  font-family: var(--font-body);
+}
+
+.att-bio-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.att-bio-text p {
+  color: var(--color-text);
+  line-height: 1.75;
+  font-size: var(--font-size-base);
+}
+
+/* Stats */
+.att-stats {
+  display: flex;
+  gap: 2rem;
+  padding: 1.5rem;
+  background: var(--color-bg-alt);
+  border-radius: var(--radius-xl);
+  border-left: 4px solid var(--color-secondary);
+}
+
+.att-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+
+.att-stat-num {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1;
+}
+
+.att-stat-label {
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-top: 0.25rem;
+}
+
+/* ── Credentials Section ── */
+.att-credentials-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.att-cred-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.att-cred-header h2 {
+  font-size: clamp(1.75rem, 3.5vw, var(--font-size-4xl));
+}
+
+.att-cred-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.att-cred-card {
+  background: #fff;
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition-normal), transform var(--transition-normal);
+}
+
+.att-cred-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.att-cred-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-lg);
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.att-cred-card h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 1.25rem;
+}
+
+.att-cred-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.att-cred-list li {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.875rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.att-cred-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.att-cred-title {
+  font-weight: 600;
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+}
+
+.att-cred-sub {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin-top: 0.125rem;
+}
+
+/* ── Philosophy Section ── */
+.att-philosophy {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.att-philosophy-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.att-philosophy-img {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+}
+
+.att-philosophy-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-xl);
+}
+
+.att-philosophy-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.att-philosophy-content h2 {
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+}
+
+.att-philosophy-content p {
+  color: var(--color-text);
+  line-height: 1.75;
+}
+
+.att-philosophy-values {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin-top: 0.5rem;
+}
+
+.att-value-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.att-value-item i {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* ── Courts Bar ── */
+.att-courts-bar {
+  background: var(--color-primary);
+  padding: 1.75rem var(--section-padding-x);
+}
+
+.att-courts-bar .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.att-courts-label {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+}
+
+.att-courts-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0;
+}
+
+.att-court-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  padding: 0 1.5rem;
+}
+
+.att-court-item i {
+  color: var(--color-secondary);
+  flex-shrink: 0;
+}
+
+.att-court-divider {
+  width: 1px;
+  height: 28px;
+  background: rgba(255,255,255,0.25);
+}
+
+/* ── Legacy / Quote ── */
+.att-legacy {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.att-legacy-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.att-legacy-quote-mark {
+  font-family: var(--font-heading);
+  font-size: 6rem;
+  line-height: 0.8;
+  color: var(--color-secondary);
+  opacity: 0.6;
+  margin-bottom: 0.5rem;
+}
+
+.att-legacy-quote {
+  font-family: var(--font-heading);
+  font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+  font-style: italic;
+  color: var(--color-text);
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.att-legacy-cite {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  font-style: normal;
+}
+
+/* ── CTA Section ── */
+.att-cta {
+  background: var(--color-neutral-900);
+  padding: 5rem var(--section-padding-x);
+  text-align: center;
+}
+
+.att-cta h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.875rem, 4vw, 2.5rem);
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.att-cta p {
+  color: rgba(255,255,255,0.8);
+  font-size: var(--font-size-lg);
+  max-width: 660px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+}
+
+.att-cta-btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.att-cta-sub {
+  font-size: var(--font-size-sm);
+  color: rgba(255,255,255,0.5);
+  margin-top: 0.5rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .att-profile-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .att-photo-col {
+    position: static;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .att-philosophy-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .att-cred-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .att-stats {
+    gap: 1rem;
+  }
+
+  .att-stat-num {
+    font-size: var(--font-size-3xl);
+  }
+
+  .att-courts-list {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .att-court-divider {
+    display: none;
+  }
+
+  .att-court-item {
+    padding: 0;
+  }
+
+  .att-cta h2 {
+    font-size: clamp(1.5rem, 5vw, 1.875rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .att-hero {
+    padding-top: calc(var(--header-height) + 3rem);
+    padding-bottom: 3rem;
+  }
+
+  .att-stats {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+}
