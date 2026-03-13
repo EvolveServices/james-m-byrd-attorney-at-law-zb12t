@@ -1,0 +1,100 @@
+{
+  "slug": "traffic-offenses",
+  "template": "practice-area",
+  "output": "/practice-areas/traffic-offenses/index.html",
+  "meta": {
+    "title": "Traffic Offenses Defense",
+    "description": "Charged with a traffic offense in Alabama? James M. Byrd has defended drivers in Mobile and throughout South Alabama since 1979. Call 251-438-2973 for a consultation."
+  },
+  "hero": {
+    "title": "Traffic Offenses",
+    "subtitle": "A traffic charge is more than a ticket. Fines, license suspensions, and insurance rate increases can follow you for years. Attorney James M. Byrd provides experienced defense for drivers throughout Mobile and South Alabama.",
+    "image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/police-car-night.webp",
+    "content_image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/young-man-sitting-car-very-upset-stressed-after-hard-failure-moving-traffic-jam.webp",
+    "content_image_alt": "Driver upset after receiving a traffic citation"
+  },
+  "content": {
+    "intro_heading": "Defending Alabama Drivers Against Traffic Charges",
+    "intro_body": "<p>Many people assume that paying a traffic ticket is the simplest way to resolve a citation. In reality, paying a ticket is an admission of guilt that can trigger points on your license, trigger insurance increases, and, for commercial drivers, threaten your livelihood. Accumulated points can lead to license suspension under Alabama's point system.</p><p>Attorney James M. Byrd has represented Alabama drivers since 1979. He understands how local prosecutors and judges handle traffic matters across Mobile County and throughout South Alabama, and he knows how to challenge citations, negotiate reductions, and keep your record as clean as possible.</p><p>Whether you are dealing with a speeding ticket, a reckless driving charge, or a more serious traffic felony, you deserve to know your options before you simply pay the fine.</p>",
+    "charges_heading": "Traffic Offenses We Handle",
+    "charges_intro": "Attorney Byrd provides defense representation for a wide range of traffic violations and serious motor vehicle offenses in Alabama, including:",
+    "why_heading": "Why You Should Not Simply Pay the Ticket",
+    "why_body": "<p>Alabama uses a point system administered by the Department of Public Safety. Minor violations add 2 points, while more serious offenses can add 5 or 6 points. Once a driver accumulates too many points within a two-year period, the state will suspend the license. A suspension means court costs, reinstatement fees, possible SR-22 insurance requirements, and disruption to your daily life.</p><p>Beyond points, some traffic convictions carry enhanced consequences. Reckless driving is a misdemeanor in Alabama. Leaving the scene of an accident involving injury can be charged as a felony. Even a first conviction for certain offenses can result in mandatory license revocation.</p><p>Commercial drivers face even stricter standards. A single serious traffic violation can disqualify a CDL holder from operating a commercial vehicle, putting an entire career at risk.</p><p>Before you decide how to handle a traffic citation, consulting with an experienced attorney is worth your time. Attorney Byrd can review your situation, explain the real-world consequences, and advise whether contesting the charge makes sense for your circumstances.</p>",
+    "strategies_heading": "How Attorney Byrd Defends Traffic Cases",
+    "extra_body": "<h3>Protecting Commercial Drivers</h3><p>If you hold a commercial driver's license, the stakes in any traffic matter are especially high. Federal regulations and Alabama law impose strict standards on CDL holders that go well beyond what applies to ordinary license holders. A conviction for a disqualifying offense can end a career. Attorney Byrd is familiar with the additional layers of regulation that apply to commercial drivers and can work to protect your license and your livelihood.</p><h3>Serving Mobile and South Alabama Drivers</h3><p>Traffic citations are issued throughout Mobile, Baldwin, Escambia, Marengo, Monroe, Washington, Choctaw, and surrounding counties. Attorney Byrd has appeared in courts across South Alabama for decades and understands the local procedures, prosecutors, and judges who handle these matters. That local knowledge can make a meaningful difference in the outcome of your case.</p>"
+  },
+  "charges": [
+    "Speeding violations, including excessive speed and school zone violations",
+    "Reckless driving",
+    "Careless driving",
+    "Running red lights and stop signs",
+    "Improper lane changes and failure to yield",
+    "Following too closely",
+    "Driving on a suspended or revoked license",
+    "Leaving the scene of an accident (hit and run)",
+    "Failure to maintain proof of insurance",
+    "Commercial driver (CDL) traffic violations",
+    "Racing on public roads",
+    "Vehicular homicide and serious injury by vehicle"
+  ],
+  "strategies": [
+    {
+      "icon": "search",
+      "title": "Challenging the Stop",
+      "description": "Law enforcement must have reasonable articulable suspicion to initiate a traffic stop. If the stop was unlawful, evidence obtained afterward may be suppressed."
+    },
+    {
+      "icon": "gauge",
+      "title": "Speed Measurement Accuracy",
+      "description": "Radar and LIDAR devices must be properly calibrated and operated. Attorney Byrd examines calibration records and officer training to identify potential deficiencies."
+    },
+    {
+      "icon": "file-text",
+      "title": "Reviewing the Citation for Errors",
+      "description": "Errors in the citation itself, including the wrong statute, incorrect vehicle information, or missing required data, can form the basis for dismissal."
+    },
+    {
+      "icon": "handshake",
+      "title": "Negotiating Reductions",
+      "description": "When a dismissal is not available, Attorney Byrd works to negotiate a reduction to a lesser offense that carries fewer points and lower insurance impact."
+    },
+    {
+      "icon": "shield",
+      "title": "Protecting Your Driving Record",
+      "description": "For drivers with clean records, deferred disposition or driver improvement programs may be available as alternatives to a conviction on the record."
+    },
+    {
+      "icon": "briefcase",
+      "title": "CDL-Specific Defense",
+      "description": "Commercial drivers face stricter rules. Attorney Byrd addresses the federal and state regulatory overlay that applies to CDL holders facing traffic charges."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth hiring an attorney for a traffic ticket in Alabama?",
+      "answer": "It depends on the circumstances. For a first minor speeding ticket with no prior violations, the cost-benefit analysis may favor handling it yourself. However, if you already have points on your license, if the violation carries serious consequences (such as reckless driving), or if you are a commercial driver, professional legal representation is strongly worth considering. An attorney can often negotiate outcomes that are not available to those who appear without counsel."
+    },
+    {
+      "question": "How does Alabama's point system work?",
+      "answer": "Alabama assigns points to your driving record for moving violations. Points accumulate over a two-year period. The Department of Public Safety can suspend your license when points reach certain thresholds. Some violations, such as reckless driving, also trigger mandatory license actions regardless of total points."
+    },
+    {
+      "question": "Can a traffic conviction affect my insurance rates?",
+      "answer": "Yes. Insurance companies review your motor vehicle record when policies renew. Convictions for moving violations, especially reckless driving or speeding at significantly over the limit, can result in substantial premium increases. Avoiding or minimizing the conviction through legal representation can protect your insurance rates over the long term."
+    },
+    {
+      "question": "What happens if I drive on a suspended license in Alabama?",
+      "answer": "Driving on a suspended or revoked license is a criminal misdemeanor in Alabama, not simply a civil traffic infraction. A conviction can result in fines, additional suspension periods, and even jail time for repeat offenses. If you are facing this charge, you should speak with an attorney promptly."
+    },
+    {
+      "question": "Can traffic charges be expunged in Alabama?",
+      "answer": "Alabama's expungement law allows for the expungement of certain misdemeanor convictions under specific conditions. Whether a traffic conviction qualifies depends on the nature of the offense, the outcome of the case, and your overall record. Attorney Byrd can review your specific situation and advise you on whether expungement may be an option."
+    }
+  ],
+  "cta": {
+    "heading": "Facing a Traffic Charge in Alabama?",
+    "text": "Do not pay a ticket without understanding the consequences first. Contact James M. Byrd for a consultation and learn what options are available for your case.",
+    "url": "/contact/",
+    "button_text": "Schedule a Consultation"
+  }
+}

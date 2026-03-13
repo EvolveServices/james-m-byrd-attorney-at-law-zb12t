@@ -66,6 +66,22 @@
       ],
       "link": "/practice-areas/dui-dwi/",
       "delay": "0.2s"
+    },
+    {
+      "title": "Traffic Offenses",
+      "badge": "Traffic Defense",
+      "icon": "car-front",
+      "image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/police-car-night.webp",
+      "image_alt": "Police car at night representing traffic offense defense",
+      "description": "Paying a traffic ticket is an admission of guilt that can add points to your license, raise your insurance rates, and threaten your livelihood if you hold a CDL. Attorney Byrd reviews every citation and works to minimize or eliminate the consequences for drivers throughout South Alabama.",
+      "highlights": [
+        "Speeding, reckless driving, and moving violations",
+        "Driving on a suspended or revoked license",
+        "Leaving the scene of an accident",
+        "Commercial driver (CDL) traffic offenses"
+      ],
+      "link": "/practice-areas/traffic-offenses/",
+      "delay": "0.3s"
     }
   ]
 }

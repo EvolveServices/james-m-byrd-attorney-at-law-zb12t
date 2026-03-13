@@ -1,0 +1,86 @@
+{
+  "slug": "drug-offenses",
+  "template": "practice-area",
+  "output": "/practice-areas/drug-offenses/index.html",
+  "meta": {
+    "title": "Drug Offense Defense Attorney Mobile AL",
+    "description": "Charged with a drug offense in Alabama? James M. Byrd has defended drug cases in Mobile and South Alabama since 1979. Call 251-438-2973 for a free consultation."
+  },
+  "hero": {
+    "title": "Drug Offense Defense",
+    "subtitle": "A drug charge in Alabama can carry serious consequences including prison time, heavy fines, and a permanent criminal record. Attorney James M. Byrd has spent over four decades challenging drug prosecutions and protecting the rights of the accused.",
+    "image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/male-lawyer-working-with-contract-papers-wooden-gavel-tabel-courtroom-justice-law-attorney-court-judge-concept.jpg",
+    "content_image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/ca9b59c2-abff-444e-965c-7b9c01673593/media/images/american-court.webp",
+    "content_image_alt": "Courtroom interior representing drug offense defense proceedings in Alabama"
+  },
+  "content": {
+    "intro_heading": "Experienced Drug Crime Defense in Mobile, Alabama",
+    "intro_body": "<p>Alabama's drug laws are among the strictest in the nation. Whether you are facing a misdemeanor possession charge or a felony trafficking indictment, the consequences of a conviction can follow you for the rest of your life: incarceration, substantial fines, loss of your driver's license, and a criminal record that affects employment, housing, and professional licensing.</p><p>James M. Byrd has been defending drug cases in Mobile and across South Alabama since 1979. He understands how law enforcement builds these cases, the constitutional limits on searches and seizures, and the strategies that produce the best outcomes for his clients. From the moment of arrest through trial, he is by your side fighting for your rights.</p>",
+    "charges_heading": "Drug Charges We Defend",
+    "charges_intro": "Attorney Byrd defends clients charged with a wide range of drug offenses under both Alabama state law and federal statutes, including:",
+    "why_heading": "Why Drug Cases Demand an Experienced Defense Attorney",
+    "why_body": "<p>Drug prosecutions often hinge on evidence gathered during traffic stops, home searches, or surveillance operations. Law enforcement must follow strict constitutional rules at every step. If officers conducted an unlawful stop, conducted a search without a proper warrant or valid consent, or violated your Miranda rights, that evidence may be suppressible, and a suppression victory can result in reduced charges or outright dismissal.</p><p>Even when the evidence appears strong, an experienced attorney can negotiate reduced charges, explore diversion or treatment programs for first-time offenders, and present mitigating factors at sentencing. Attorney Byrd evaluates every angle of a drug case with the thorough scrutiny it demands, because your freedom and future are at stake.</p>",
+    "strategies_heading": "Our Defense Approach",
+    "extra_body": "<h3>Alabama Drug Sentencing: What You Are Facing</h3><p>Alabama classifies controlled substances in schedules I through V, with penalties scaling by schedule, quantity, and prior criminal history. Simple possession of a Schedule I or II substance is a Class D felony carrying up to five years in prison. Drug trafficking charges carry mandatory minimum sentences that can range from three years to life, depending on the drug and the weight involved. Federal drug charges, which Attorney Byrd also handles, carry their own sentencing guidelines and can result in lengthy mandatory minimums without the possibility of parole.</p><p>Knowing what you are up against is the first step. The second is retaining a lawyer who has the experience and determination to fight the charges aggressively. Attorney Byrd has done exactly that for clients across Mobile County, Baldwin County, and throughout South Alabama for more than 40 years.</p>"
+  },
+  "charges": [
+    "Simple possession of marijuana, cocaine, methamphetamine, heroin, or prescription drugs",
+    "Possession with intent to distribute or sell",
+    "Drug trafficking and distribution",
+    "Manufacturing or cultivation of controlled substances",
+    "Drug conspiracy charges",
+    "Prescription drug fraud and doctor shopping",
+    "Federal drug offenses under the Controlled Substances Act",
+    "Drug charges related to firearms or other criminal allegations"
+  ],
+  "strategies": [
+    {
+      "icon": "search",
+      "title": "Challenging the Search and Seizure",
+      "description": "Many drug cases rest on evidence obtained during a search. Attorney Byrd scrutinizes every search warrant, traffic stop, and consent encounter to identify Fourth Amendment violations that can suppress key evidence."
+    },
+    {
+      "icon": "file-x",
+      "title": "Chain of Custody and Lab Analysis",
+      "description": "Prosecutors must prove that the substance seized is what they claim it is and that it was properly handled. Attorney Byrd challenges lab testing procedures, analyst qualifications, and chain-of-custody documentation."
+    },
+    {
+      "icon": "shield",
+      "title": "Entrapment and Informant Issues",
+      "description": "Law enforcement sometimes uses confidential informants or undercover operations. Attorney Byrd investigates whether his client was improperly induced to commit an offense he would not otherwise have committed."
+    },
+    {
+      "icon": "users",
+      "title": "Negotiating Diversion and Reduced Charges",
+      "description": "For eligible clients, Attorney Byrd explores alternative sentencing, drug court programs, and plea agreements that minimize or eliminate incarceration while addressing the underlying issues."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a drug charge be dismissed in Alabama?",
+      "answer": "Yes. Charges can be dismissed or reduced when evidence is suppressed due to an unlawful search, when the prosecution lacks sufficient evidence to proceed, or when the defendant successfully completes a diversion program. Every case is different, and a thorough review by an experienced attorney is essential."
+    },
+    {
+      "question": "What is the difference between possession and trafficking in Alabama?",
+      "answer": "Possession means having a controlled substance for personal use. Trafficking is defined by the weight of the substance involved, not necessarily proof of sales activity. Alabama's trafficking thresholds are relatively low, meaning a person caught with more than a threshold amount can face mandatory minimum prison sentences even with no evidence of distribution."
+    },
+    {
+      "question": "Will I lose my driver's license over a drug charge?",
+      "answer": "Alabama law requires the suspension of driving privileges upon conviction of most drug offenses, even if the offense had nothing to do with a vehicle. An attorney may be able to challenge the conviction or seek a hardship license depending on the circumstances."
+    },
+    {
+      "question": "How soon should I contact an attorney after a drug arrest?",
+      "answer": "Immediately. The early stages of a criminal case, including arraignment, bail hearings, and the preservation of evidence, are critical. The sooner Attorney Byrd can begin working on your case, the more options are available to you."
+    },
+    {
+      "question": "Does Attorney Byrd handle federal drug charges?",
+      "answer": "Yes. James M. Byrd is licensed to practice in the Federal District Court for the Southern District of Alabama and the Eleventh Circuit Court of Appeals, and handles federal drug conspiracy, trafficking, and distribution cases in addition to state charges."
+    }
+  ],
+  "cta": {
+    "heading": "Charged With a Drug Offense? Call James M. Byrd Today.",
+    "text": "Do not face Alabama's strict drug laws alone. With more than 40 years of criminal defense experience, Attorney Byrd has the knowledge and tenacity to fight for the best possible outcome in your case. Contact us now for a confidential consultation.",
+    "url": "/contact/",
+    "button_text": "Schedule a Free Consultation"
+  }
+}

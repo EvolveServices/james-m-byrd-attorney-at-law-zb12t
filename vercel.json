@@ -80,6 +80,14 @@
     {
       "source": "/accessibility",
       "destination": "/accessibility/index.html"
+    },
+    {
+      "source": "/practice-areas/drug-offenses",
+      "destination": "/practice-areas/drug-offenses/index.html"
+    },
+    {
+      "source": "/practice-areas/traffic-offenses",
+      "destination": "/practice-areas/traffic-offenses/index.html"
     }
   ]
 }
