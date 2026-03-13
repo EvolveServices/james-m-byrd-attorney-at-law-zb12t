@@ -209,19 +209,30 @@ header.scrolled {
   box-shadow: 0 8px 32px rgba(0,0,0,0.12);
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-8px);
+  transform: translateY(0);
   transition: opacity var(--transition-fast),
-              transform var(--transition-fast),
               visibility var(--transition-fast);
   pointer-events: none;
   z-index: 100;
+}
+
+/* Transparent bridge extending upward to cover the gap between
+   the navbar trigger and the megamenu panel, keeping hover active */
+.megamenu::before {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 0;
+  right: 0;
+  height: 13px;
+  background: transparent;
+  pointer-events: auto;
 }
 
 .nav-item-mega:hover .megamenu,
 .nav-item-mega:focus-within .megamenu {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
   pointer-events: auto;
 }
 
