@@ -221,10 +221,10 @@ header.scrolled {
 .megamenu::before {
   content: '';
   position: absolute;
-  top: -12px;
+  top: -17px;
   left: 0;
   right: 0;
-  height: 13px;
+  height: 18px;
   background: transparent;
   pointer-events: auto;
 }
