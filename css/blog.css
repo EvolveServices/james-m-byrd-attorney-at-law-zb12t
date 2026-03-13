@@ -44,6 +44,22 @@
   background: var(--color-bg-alt);
 }
 
+.blog-empty-state {
+  padding: 3rem 2rem;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-lg);
+  font-family: var(--font-heading);
+}
+
+.blog-empty-icon {
+  width: 48px;
+  height: 48px;
+  color: var(--color-secondary);
+  margin: 0 auto 1rem;
+  display: block;
+}
+
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
