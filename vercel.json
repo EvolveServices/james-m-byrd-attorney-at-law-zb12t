@@ -88,6 +88,10 @@
     {
       "source": "/practice-areas/traffic-offenses",
       "destination": "/practice-areas/traffic-offenses/index.html"
+    },
+    {
+      "source": "/testimonials",
+      "destination": "/testimonials/index.html"
     }
   ]
 }
