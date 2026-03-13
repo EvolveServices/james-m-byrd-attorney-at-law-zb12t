@@ -76,6 +76,10 @@
     {
       "source": "/disclaimer",
       "destination": "/disclaimer/index.html"
+    },
+    {
+      "source": "/accessibility",
+      "destination": "/accessibility/index.html"
     }
   ]
 }
