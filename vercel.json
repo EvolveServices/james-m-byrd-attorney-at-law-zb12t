@@ -68,6 +68,14 @@
     {
       "source": "/areas-served/washington-county",
       "destination": "/areas-served/washington-county/index.html"
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy/index.html"
+    },
+    {
+      "source": "/disclaimer",
+      "destination": "/disclaimer/index.html"
     }
   ]
 }

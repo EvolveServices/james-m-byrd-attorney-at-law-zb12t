@@ -1,0 +1,202 @@
+/* === Disclaimer Page Styles === */
+
+/* Reuses .interior-hero, .policy-body, .policy-list, .policy-contact-block,
+   .policy-related, .policy-effective from privacy-policy.css patterns.
+   Defined here for standalone use. */
+
+/* Interior Hero */
+.interior-hero {
+  padding: calc(var(--header-height) + 4rem) var(--section-padding-x) 3.5rem;
+  background: var(--color-primary-dark);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.interior-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.15) 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.interior-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.interior-hero .section-label {
+  color: var(--color-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.interior-hero h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: var(--font-weight-bold);
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  margin-bottom: 0.75rem;
+}
+
+.interior-hero p {
+  color: rgba(255,255,255,0.8);
+  font-size: var(--font-size-base);
+}
+
+/* Disclaimer Content Section */
+.disclaimer-content {
+  background: var(--color-bg);
+}
+
+.disclaimer-body {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.disclaimer-effective {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-neutral-200);
+}
+
+.disclaimer-body p {
+  color: var(--color-text);
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+  font-size: var(--font-size-base);
+}
+
+.disclaimer-body h2 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary-dark);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-secondary);
+}
+
+.disclaimer-body h2:first-of-type {
+  margin-top: 1.5rem;
+}
+
+.disclaimer-body h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.disclaimer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 1.25rem 0;
+}
+
+.disclaimer-list li {
+  padding: 0.35rem 0 0.35rem 1.5rem;
+  position: relative;
+  color: var(--color-text);
+  line-height: 1.7;
+  font-size: var(--font-size-base);
+}
+
+.disclaimer-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-secondary);
+}
+
+.disclaimer-body a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.disclaimer-body a:hover {
+  color: var(--color-primary-dark);
+}
+
+/* Contact block */
+.disclaimer-contact-block {
+  background: var(--color-bg-alt);
+  border-left: 4px solid var(--color-secondary);
+  padding: 1.5rem 1.75rem;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin: 1.25rem 0;
+}
+
+.disclaimer-contact-block p {
+  margin-bottom: 0.4rem;
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+}
+
+.disclaimer-contact-block p:last-child {
+  margin-bottom: 0;
+}
+
+/* Advertising notice box */
+.advertising-notice {
+  background: var(--color-primary-dark);
+  color: #ffffff;
+  padding: 1.75rem 2rem;
+  border-radius: var(--radius-md);
+  margin: 2rem 0;
+}
+
+.advertising-notice p {
+  color: rgba(255,255,255,0.92) !important;
+  margin-bottom: 0 !important;
+  font-size: var(--font-size-sm) !important;
+  line-height: 1.7;
+}
+
+.advertising-notice strong {
+  color: var(--color-secondary);
+}
+
+/* Related link */
+.disclaimer-related {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-neutral-200);
+}
+
+.disclaimer-related p {
+  font-size: var(--font-size-base);
+  color: var(--color-text-muted);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .interior-hero {
+    padding: calc(var(--header-height) + 2.5rem) var(--section-padding-x) 2.5rem;
+  }
+
+  .disclaimer-body h2 {
+    font-size: var(--font-size-xl);
+  }
+
+  .advertising-notice {
+    padding: 1.25rem 1.25rem;
+  }
+}
